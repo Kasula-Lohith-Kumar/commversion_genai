@@ -1,0 +1,502 @@
+[
+  {
+    "chat_id": "chat_01",
+    "entities": {
+      "customer_name": "Rahul Mehta",
+      "property_type": "Apartment",
+      "bhk": "3 BHK",
+      "location": "Andheri West",
+      "sub_location": "Lokhandwala",
+      "budget_crore": 3.0,
+      "price_mentioned_crore": 2.7,
+      "purpose": "self-use",
+      "current_location": "Goregaon West",
+      "visit_date": null,
+      "purchase_timeline": "3-4 months",
+      "phone": null,
+      "email": null,
+      "profession": null,
+      "preferred_contact": null
+    },
+    "meta": {
+      "lead_intent": "high",
+      "urgency": "medium",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "chat_id": "chat_02",
+    "entities": {
+      "customer_name": "Anjali",
+      "property_type": "Apartment",
+      "bhk": "2 BHK",
+      "location": "Powai",
+      "sub_location": null,
+      "budget_crore": 2.0,
+      "price_mentioned_crore": 2.2,
+      "purpose": null,
+      "current_location": "Thane",
+      "visit_date": null,
+      "purchase_timeline": "6 months",
+      "phone": null,
+      "email": "anjali.s@gmail.com",
+      "profession": null,
+      "preferred_contact": "email"
+    },
+    "meta": {
+      "lead_intent": "medium",
+      "urgency": "low",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "chat_id": "chat_03",
+    "entities": {
+      "customer_name": "Amit",
+      "property_type": "Apartment",
+      "bhk": "1 BHK",
+      "location": "Mira Road",
+      "sub_location": null,
+      "budget_crore": 0.55,
+      "price_mentioned_crore": 0.6,
+      "purpose": null,
+      "current_location": "Kandarpada",
+      "visit_date": null,
+      "purchase_timeline": "immediate",
+      "phone": null,
+      "email": null,
+      "profession": null,
+      "preferred_contact": null
+    },
+    "meta": {
+      "lead_intent": "high",
+      "urgency": "high",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "chat_id": "chat_04",
+    "entities": {
+      "customer_name": "Suresh Kumar",
+      "property_type": "Apartment",
+      "bhk": "2 BHK",
+      "location": "Vashi",
+      "sub_location": null,
+      "budget_crore": 1.1,
+      "price_mentioned_crore": 1.1,
+      "purpose": null,
+      "current_location": "Panvel",
+      "visit_date": "next Saturday",
+      "purchase_timeline": null,
+      "phone": "9876501234",
+      "email": null,
+      "profession": null,
+      "preferred_contact": "phone"
+    },
+    "meta": {
+      "lead_intent": "high",
+      "urgency": "medium",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "chat_id": "chat_05",
+    "entities": {
+      "customer_name": "Arjun Malhotra",
+      "property_type": "Apartment",
+      "bhk": "2/3 BHK",
+      "location": "Lower Parel",
+      "sub_location": null,
+      "budget_crore": 3.0,
+      "price_mentioned_crore": 2.8,
+      "purpose": null,
+      "current_location": "Delhi",
+      "visit_date": null,
+      "purchase_timeline": "10-12 weeks",
+      "phone": null,
+      "email": "arjun.m@gmail.com",
+      "profession": null,
+      "preferred_contact": "email"
+    },
+    "meta": {
+      "lead_intent": "medium",
+      "urgency": "medium",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "chat_id": "chat_06",
+    "entities": {
+      "customer_name": "Rakesh",
+      "property_type": "Apartment",
+      "bhk": "2 BHK",
+      "location": "Malad West",
+      "sub_location": "Link Road",
+      "budget_crore": 1.6,
+      "price_mentioned_crore": 1.55,
+      "purpose": null,
+      "current_location": "Kandivali East",
+      "visit_date": "2026-03-12",
+      "purchase_timeline": "10 weeks",
+      "phone": null,
+      "email": null,
+      "profession": "service sector",
+      "preferred_contact": null
+    },
+    "meta": {
+      "lead_intent": "high",
+      "urgency": "medium",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "chat_id": "chat_07",
+    "entities": {
+      "customer_name": "Sunil",
+      "property_type": "Apartment",
+      "bhk": "3 BHK",
+      "location": "Chembur East",
+      "sub_location": null,
+      "budget_crore": 1.8,
+      "price_mentioned_crore": 1.75,
+      "purpose": null,
+      "current_location": "Ghatkopar",
+      "visit_date": "2026-03-15",
+      "purchase_timeline": "3 days",
+      "phone": null,
+      "email": null,
+      "profession": "business",
+      "preferred_contact": null
+    },
+    "meta": {
+      "lead_intent": "very high",
+      "urgency": "very high",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "chat_id": "chat_08",
+    "entities": {
+      "customer_name": null,
+      "property_type": "Apartment",
+      "bhk": "2 BHK",
+      "location": "Borivali West",
+      "sub_location": null,
+      "budget_crore": 1.4,
+      "price_mentioned_crore": 1.45,
+      "purpose": "self-use",
+      "current_location": "Borivali East",
+      "visit_date": "2026-04-05",
+      "purchase_timeline": "12-16 months",
+      "phone": null,
+      "email": null,
+      "profession": "retired",
+      "preferred_contact": null
+    },
+    "meta": {
+      "lead_intent": "low",
+      "urgency": "low",
+      "sentiment": "neutral"
+    }
+  },
+  {
+    "chat_id": "chat_09",
+    "entities": {
+      "customer_name": "Kunal",
+      "property_type": "Apartment",
+      "bhk": "2 BHK",
+      "location": "Lower Parel",
+      "sub_location": null,
+      "budget_crore": 3.0,
+      "price_mentioned_crore": 2.9,
+      "purpose": null,
+      "current_location": "Worli",
+      "visit_date": "2026-03-20",
+      "purchase_timeline": "1 week",
+      "phone": null,
+      "email": null,
+      "profession": "finance",
+      "preferred_contact": null
+    },
+    "meta": {
+      "lead_intent": "high",
+      "urgency": "high",
+      "sentiment": "neutral"
+    }
+  },
+  {
+    "chat_id": "chat_10",
+    "entities": {
+      "customer_name": null,
+      "property_type": "Apartment",
+      "bhk": "2 BHK",
+      "location": "Thane West",
+      "sub_location": null,
+      "budget_crore": 1.0,
+      "price_mentioned_crore": 0.95,
+      "purpose": null,
+      "current_location": "Mulund",
+      "visit_date": "2026-02-28",
+      "purchase_timeline": "8-10 days",
+      "phone": null,
+      "email": null,
+      "profession": "private company",
+      "preferred_contact": null
+    },
+    "meta": {
+      "lead_intent": "high",
+      "urgency": "very high",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "chat_id": "chat_11",
+    "entities": {
+      "customer_name": "Rahul Sharma",
+      "property_type": "Apartment",
+      "bhk": "3 BHK",
+      "location": "Andheri West",
+      "sub_location": "Lokhandwala",
+      "budget_crore": 3.0,
+      "price_mentioned_crore": 2.85,
+      "purpose": "self-use",
+      "current_location": "Goregaon West",
+      "visit_date": "2026-03-18",
+      "purchase_timeline": "12-16 weeks",
+      "phone": "9876543210",
+      "email": "rahul.sharma@gmail.com",
+      "profession": "IT services",
+      "preferred_contact": null
+    },
+    "meta": {
+      "lead_intent": "high",
+      "urgency": "medium",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "chat_id": "chat_12",
+    "entities": {
+      "customer_name": "Anjali Mehta",
+      "property_type": "Apartment",
+      "bhk": "2 BHK",
+      "location": "Powai",
+      "sub_location": "Hiranandani Gardens",
+      "budget_crore": 2.2,
+      "price_mentioned_crore": 2.1,
+      "purpose": "self-use",
+      "current_location": "Thane West",
+      "visit_date": "2026-04-02",
+      "purchase_timeline": "10 days",
+      "phone": "9823456789",
+      "email": "anjali.mehta@gmail.com",
+      "profession": "Private bank",
+      "preferred_contact": null
+    },
+    "meta": {
+      "lead_intent": "very high",
+      "urgency": "high",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "chat_id": "chat_13",
+    "entities": {
+      "customer_name": "Sandeep Kulkarni",
+      "property_type": "Villa",
+      "bhk": "3 BHK",
+      "location": "Lonavala",
+      "sub_location": null,
+      "budget_crore": 2.7,
+      "price_mentioned_crore": 2.6,
+      "purpose": "investment / second home",
+      "current_location": "Baner, Pune",
+      "visit_date": "2026-03-25",
+      "purchase_timeline": "6 months",
+      "phone": "9012345678",
+      "email": "sandeep.k@gmail.com",
+      "profession": "Manufacturing business owner",
+      "preferred_contact": null
+    },
+    "meta": {
+      "lead_intent": "medium",
+      "urgency": "low",
+      "sentiment": "neutral"
+    }
+  },
+  {
+    "chat_id": "chat_14",
+    "entities": {
+      "customer_name": "Kamla Deshpande",
+      "property_type": "Apartment",
+      "bhk": "2 BHK",
+      "location": "Vashi",
+      "sub_location": null,
+      "budget_crore": 1.2,
+      "price_mentioned_crore": 1.15,
+      "purpose": "self-use",
+      "current_location": "Nerul",
+      "visit_date": "2026-02-20",
+      "purchase_timeline": "16 weeks",
+      "phone": "8899776655",
+      "email": "kamla.d@gmail.com",
+      "profession": "Retired",
+      "preferred_contact": null
+    },
+    "meta": {
+      "lead_intent": "medium",
+      "urgency": "medium",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "chat_id": "chat_15",
+    "entities": {
+      "customer_name": "Arjun Verma",
+      "property_type": "Apartment",
+      "bhk": "3 BHK",
+      "location": "Lower Parel",
+      "sub_location": null,
+      "budget_crore": 3.5,
+      "price_mentioned_crore": 3.2,
+      "purpose": "self-use",
+      "current_location": "Worli",
+      "visit_date": "2026-03-10",
+      "purchase_timeline": "24 weeks",
+      "phone": "9988771122",
+      "email": "arjun.verma@gmail.com",
+      "profession": "Consulting firm",
+      "preferred_contact": null
+    },
+    "meta": {
+      "lead_intent": "high",
+      "urgency": "low",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "chat_id": "chat_16",
+    "entities": {
+      "customer_name": "Rohit Malhotra",
+      "property_type": "Apartment",
+      "bhk": "3 BHK",
+      "location": "Andheri West",
+      "sub_location": "Lokhandwala",
+      "budget_crore": 3.0,
+      "price_mentioned_crore": 2.8,
+      "purpose": "self-use",
+      "current_location": "Goregaon East",
+      "visit_date": "2026-03-08",
+      "purchase_timeline": "10 weeks",
+      "phone": "9876654321",
+      "email": "rohit.m@gmail.com",
+      "profession": "Private company",
+      "preferred_contact": "email"
+    },
+    "meta": {
+      "lead_intent": "high",
+      "urgency": "high",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "chat_id": "chat_17",
+    "entities": {
+      "customer_name": "Ajay Verma",
+      "property_type": "Apartment",
+      "bhk": "2 BHK",
+      "location": "Powai",
+      "sub_location": null,
+      "budget_crore": 2.1,
+      "price_mentioned_crore": 2.0,
+      "purpose": "self-use",
+      "current_location": "Kanjurmarg",
+      "visit_date": "2026-03-05",
+      "purchase_timeline": "2 months",
+      "phone": "9011223344",
+      "email": "ajay.verma@gmail.com",
+      "profession": "Business owner",
+      "preferred_contact": "phone"
+    },
+    "meta": {
+      "lead_intent": "medium",
+      "urgency": "medium",
+      "sentiment": "negative"
+    }
+  },
+  {
+    "chat_id": "chat_18",
+    "entities": {
+      "customer_name": "Rahul Mehra",
+      "property_type": "Apartment",
+      "bhk": "3 BHK",
+      "location": "Andheri West",
+      "sub_location": "Lokhandwala",
+      "budget_crore": 3.0,
+      "price_mentioned_crore": 2.9,
+      "purpose": "self-use",
+      "current_location": "Goregaon East",
+      "visit_date": "2026-03-22",
+      "purchase_timeline": "16 weeks",
+      "phone": "9898989898",
+      "email": "rahul.mehra@gmail.com",
+      "profession": "IT services",
+      "preferred_contact": "no_calls_office_hours"
+    },
+    "meta": {
+      "lead_intent": "high",
+      "urgency": "medium",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "chat_id": "chat_19",
+    "entities": {
+      "customer_name": "Ananya Iyer",
+      "property_type": "Apartment",
+      "bhk": "2 BHK",
+      "location": "Powai",
+      "sub_location": "Hiranandani",
+      "budget_crore": 2.2,
+      "price_mentioned_crore": 2.15,
+      "purpose": "self-use",
+      "current_location": "Mulund West",
+      "visit_date": "2026-04-06",
+      "purchase_timeline": "20 weeks",
+      "phone": "9123456780",
+      "email": "ananya.iyer@gmail.com",
+      "profession": "Private bank",
+      "preferred_contact": "whatsapp"
+    },
+    "meta": {
+      "lead_intent": "high",
+      "urgency": "medium",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "chat_id": "chat_20",
+    "entities": {
+      "customer_name": "Suresh Patil",
+      "property_type": "Villa",
+      "bhk": "3 BHK",
+      "location": "Lonavala",
+      "sub_location": null,
+      "budget_crore": 2.7,
+      "price_mentioned_crore": 2.7,
+      "purpose": "weekend home",
+      "current_location": "Wakad, Pune",
+      "visit_date": "2026-03-30",
+      "purchase_timeline": "24 weeks",
+      "phone": "9090909090",
+      "email": "suresh.p@gmail.com",
+      "profession": "Logistics business owner",
+      "preferred_contact": null
+    },
+    "meta": {
+      "lead_intent": "medium",
+      "urgency": "low",
+      "sentiment": "positive"
+    }
+  }
+]

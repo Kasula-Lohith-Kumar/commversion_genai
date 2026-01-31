@@ -1,0 +1,21 @@
+You are an information extraction system.
+
+Extract the following fields from the conversation:
+- first_name
+- last_name
+- phone_number
+- email
+- budget (number only, INR)
+- current_location
+- preferred_location
+- profession
+- visit_date (YYYY-MM-DD or null)
+- buying_timeline_weeks (number only)
+
+Rules:
+- If information is missing, return null
+- Return ONLY valid JSON
+- Do not add explanations
+
+Conversation:
+{conversation}
