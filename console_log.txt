@@ -1,0 +1,7068 @@
+%%%%%%%%%%%%%%%%%%%% Evaluating prompt prompt1.txt %%%%%%%%%%%%%%%%%%%%
+
+==============================
+Running extraction with model: gpt-4.1-nano
+==============================
+
+
+Processing chat_01
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Mehta",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Mehta",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_02
+
+Normalized Ground truth data : {
+    "full_name": "Anjali",
+    "email": "anjali.s@gmail.com",
+    "phone": null,
+    "budget_rupees": 20000000,
+    "current_location": "Thane",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 24,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Anjali",
+    "email": "anjali.s@gmail.com",
+    "phone": null,
+    "budget_rupees": 20000000,
+    "current_location": "Thane",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 24,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_03
+
+Normalized Ground truth data : {
+    "full_name": "Amit",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 5500000,
+    "current_location": "Kandarpada",
+    "preferred_location": "Mira Road",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Amit",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 5500000,
+    "current_location": "Kandarpada",
+    "preferred_location": "Mira Road",
+    "buying_timeline_weeks": 0,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_04
+
+Normalized Ground truth data : {
+    "full_name": "Suresh Kumar",
+    "email": null,
+    "phone": "9876501234",
+    "budget_rupees": 11000000,
+    "current_location": "Panvel",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": "next Saturday"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Suresh Kumar",
+    "email": null,
+    "phone": "9876501234",
+    "budget_rupees": null,
+    "current_location": "Panvel",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 0
+}
+
+
+Processing chat_05
+
+Normalized Ground truth data : {
+    "full_name": "Arjun Malhotra",
+    "email": "arjun.m@gmail.com",
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Delhi",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 11,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Arjun Malhotra",
+    "email": "arjun.m@gmail.com",
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Delhi",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 11,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_06
+
+Normalized Ground truth data : {
+    "full_name": "Rakesh",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 16000000,
+    "current_location": "Kandivali East",
+    "preferred_location": "Malad West",
+    "buying_timeline_weeks": 10,
+    "profession": "service sector",
+    "visit_date": "2026-03-12"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rakesh",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 160000000,
+    "current_location": "Kandivali East",
+    "preferred_location": "Malad West",
+    "buying_timeline_weeks": 10,
+    "profession": "service sector",
+    "visit_date": "2026-03-12"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_07
+
+Normalized Ground truth data : {
+    "full_name": "Sunil",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 18000000,
+    "current_location": "Ghatkopar",
+    "preferred_location": "Chembur East",
+    "buying_timeline_weeks": null,
+    "profession": "business",
+    "visit_date": "2026-03-15"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 180000000,
+    "current_location": "Ghatkopar",
+    "preferred_location": "Chembur East",
+    "buying_timeline_weeks": 0,
+    "profession": "own business",
+    "visit_date": "2026-03-15"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 0,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_08
+
+Normalized Ground truth data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 14000000,
+    "current_location": "Borivali East",
+    "preferred_location": "Borivali West",
+    "buying_timeline_weeks": 56,
+    "profession": "retired",
+    "visit_date": "2026-04-05"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 140000000,
+    "current_location": "Borivali East",
+    "preferred_location": "Borivali West",
+    "buying_timeline_weeks": 52,
+    "profession": "retired",
+    "visit_date": "2026-04-05"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_09
+
+Normalized Ground truth data : {
+    "full_name": "Kunal",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 1,
+    "profession": "finance",
+    "visit_date": "2026-03-20"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 1,
+    "profession": "finance",
+    "visit_date": "2026-03-20"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 0,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_10
+
+Normalized Ground truth data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 10000000,
+    "current_location": "Mulund",
+    "preferred_location": "Thane West",
+    "buying_timeline_weeks": null,
+    "profession": "private company",
+    "visit_date": "2026-02-28"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 9500000,
+    "current_location": "Mulund",
+    "preferred_location": "Thane",
+    "buying_timeline_weeks": 2,
+    "profession": "private company",
+    "visit_date": "2023-02-28"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 0,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 0
+}
+
+
+Processing chat_11
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Sharma",
+    "email": "rahul.sharma@gmail.com",
+    "phone": "9876543210",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": "IT services",
+    "visit_date": "2026-03-18"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Sharma",
+    "email": "rahul.sharma@gmail.com",
+    "phone": "9876543210",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": "IT services sector",
+    "visit_date": "2026-03-18"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_12
+
+Normalized Ground truth data : {
+    "full_name": "Anjali Mehta",
+    "email": "anjali.mehta@gmail.com",
+    "phone": "9823456789",
+    "budget_rupees": 22000000,
+    "current_location": "Thane West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": null,
+    "profession": "Private bank",
+    "visit_date": "2026-04-02"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Anjali Mehta",
+    "email": "anjali.mehta@gmail.com",
+    "phone": "9823456789",
+    "budget_rupees": 22000000,
+    "current_location": "Thane West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 2,
+    "profession": "private bank",
+    "visit_date": "2026-04-02"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_13
+
+Normalized Ground truth data : {
+    "full_name": "Sandeep Kulkarni",
+    "email": "sandeep.k@gmail.com",
+    "phone": "9012345678",
+    "budget_rupees": 27000000,
+    "current_location": "Baner, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Manufacturing business owner",
+    "visit_date": "2026-03-25"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Sandeep Kulkarni",
+    "email": "sandeep.k@gmail.com",
+    "phone": "9012345678",
+    "budget_rupees": 27000000,
+    "current_location": "Baner, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "manufacturing business",
+    "visit_date": "2026-03-25"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_14
+
+Normalized Ground truth data : {
+    "full_name": "Kamla Deshpande",
+    "email": "kamla.d@gmail.com",
+    "phone": "8899776655",
+    "budget_rupees": 12000000,
+    "current_location": "Nerul",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": 16,
+    "profession": "Retired",
+    "visit_date": "2026-02-20"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Kamla Deshpande",
+    "email": "kamla.d@gmail.com",
+    "phone": "8899776655",
+    "budget_rupees": 12000000,
+    "current_location": "Nerul",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": 16,
+    "profession": "retired",
+    "visit_date": "2026-02-20"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_15
+
+Normalized Ground truth data : {
+    "full_name": "Arjun Verma",
+    "email": "arjun.verma@gmail.com",
+    "phone": "9988771122",
+    "budget_rupees": 35000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 24,
+    "profession": "Consulting firm",
+    "visit_date": "2026-03-10"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Arjun Verma",
+    "email": "arjun.verma@gmail.com",
+    "phone": "9988771122",
+    "budget_rupees": 35000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 24,
+    "profession": "consulting firm",
+    "visit_date": "2026-03-10"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_16
+
+Normalized Ground truth data : {
+    "full_name": "Rohit Malhotra",
+    "email": "rohit.m@gmail.com",
+    "phone": "9876654321",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 10,
+    "profession": "Private company",
+    "visit_date": "2026-03-08"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rohit Malhotra",
+    "email": "rohit.m@gmail.com",
+    "phone": "9876654321",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 10,
+    "profession": "private company",
+    "visit_date": "2026-03-08"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_17
+
+Normalized Ground truth data : {
+    "full_name": "Ajay Verma",
+    "email": "ajay.verma@gmail.com",
+    "phone": "9011223344",
+    "budget_rupees": 21000000,
+    "current_location": "Kanjurmarg",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 8,
+    "profession": "Business owner",
+    "visit_date": "2026-03-05"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Ajay Verma",
+    "email": "ajay.verma@gmail.com",
+    "phone": "9011223344",
+    "budget_rupees": 21000000,
+    "current_location": "Kanjurmarg",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 8,
+    "profession": "self-employed",
+    "visit_date": "2026-03-05"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_18
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Mehra",
+    "email": "rahul.mehra@gmail.com",
+    "phone": "9898989898",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": "IT services",
+    "visit_date": "2026-03-22"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Mehra",
+    "email": "rahul.mehra@gmail.com",
+    "phone": "9898989898",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": "IT services",
+    "visit_date": "2026-03-22"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_19
+
+Normalized Ground truth data : {
+    "full_name": "Ananya Iyer",
+    "email": "ananya.iyer@gmail.com",
+    "phone": "9123456780",
+    "budget_rupees": 22000000,
+    "current_location": "Mulund West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 20,
+    "profession": "Private bank",
+    "visit_date": "2026-04-06"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Ananya Iyer",
+    "email": "ananya.iyer@gmail.com",
+    "phone": "9123456780",
+    "budget_rupees": 22000000,
+    "current_location": "Mulund West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 20,
+    "profession": "private bank",
+    "visit_date": "2026-04-06"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_20
+
+Normalized Ground truth data : {
+    "full_name": "Suresh Patil",
+    "email": "suresh.p@gmail.com",
+    "phone": "9090909090",
+    "budget_rupees": 27000000,
+    "current_location": "Wakad, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Logistics business owner",
+    "visit_date": "2026-03-30"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Suresh Patil",
+    "email": "suresh.p@gmail.com",
+    "phone": "9090909090",
+    "budget_rupees": 27000000,
+    "current_location": "Wakad, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "logistics business",
+    "visit_date": "2026-03-30"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+==============================
+Running extraction with model: gpt-4.1-mini
+==============================
+
+
+Processing chat_01
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Mehta",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Mehta",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_02
+
+Normalized Ground truth data : {
+    "full_name": "Anjali",
+    "email": "anjali.s@gmail.com",
+    "phone": null,
+    "budget_rupees": 20000000,
+    "current_location": "Thane",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 24,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Anjali",
+    "email": "anjali.s@gmail.com",
+    "phone": null,
+    "budget_rupees": 20000000,
+    "current_location": "Thane",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 26,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_03
+
+Normalized Ground truth data : {
+    "full_name": "Amit",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 5500000,
+    "current_location": "Kandarpada",
+    "preferred_location": "Mira Road",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Amit",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 5500000,
+    "current_location": "Kandarpada",
+    "preferred_location": "Mira Road",
+    "buying_timeline_weeks": 0,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_04
+
+Normalized Ground truth data : {
+    "full_name": "Suresh Kumar",
+    "email": null,
+    "phone": "9876501234",
+    "budget_rupees": 11000000,
+    "current_location": "Panvel",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": "next Saturday"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Suresh Kumar",
+    "email": null,
+    "phone": "9876501234",
+    "budget_rupees": 10000000,
+    "current_location": "Panvel",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 0
+}
+
+
+Processing chat_05
+
+Normalized Ground truth data : {
+    "full_name": "Arjun Malhotra",
+    "email": "arjun.m@gmail.com",
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Delhi",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 11,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Arjun Malhotra",
+    "email": "arjun.m@gmail.com",
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Delhi",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 11,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_06
+
+Normalized Ground truth data : {
+    "full_name": "Rakesh",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 16000000,
+    "current_location": "Kandivali East",
+    "preferred_location": "Malad West",
+    "buying_timeline_weeks": 10,
+    "profession": "service sector",
+    "visit_date": "2026-03-12"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rakesh",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 16000000,
+    "current_location": "Kandivali East",
+    "preferred_location": "Malad West",
+    "buying_timeline_weeks": 10,
+    "profession": "service sector",
+    "visit_date": "2026-03-12"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_07
+
+Normalized Ground truth data : {
+    "full_name": "Sunil",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 18000000,
+    "current_location": "Ghatkopar",
+    "preferred_location": "Chembur East",
+    "buying_timeline_weeks": null,
+    "profession": "business",
+    "visit_date": "2026-03-15"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Sunil",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 18000000,
+    "current_location": "Ghatkopar",
+    "preferred_location": "Chembur",
+    "buying_timeline_weeks": 0,
+    "profession": "I run my own business",
+    "visit_date": "2026-03-15"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 0,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_08
+
+Normalized Ground truth data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 14000000,
+    "current_location": "Borivali East",
+    "preferred_location": "Borivali West",
+    "buying_timeline_weeks": 56,
+    "profession": "retired",
+    "visit_date": "2026-04-05"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 14000000,
+    "current_location": "Borivali East",
+    "preferred_location": "Borivali West",
+    "buying_timeline_weeks": 56,
+    "profession": "retired",
+    "visit_date": "2026-04-05"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_09
+
+Normalized Ground truth data : {
+    "full_name": "Kunal",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 1,
+    "profession": "finance",
+    "visit_date": "2026-03-20"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Kunal",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 1,
+    "profession": "finance",
+    "visit_date": "2026-03-20"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_10
+
+Normalized Ground truth data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 10000000,
+    "current_location": "Mulund",
+    "preferred_location": "Thane West",
+    "buying_timeline_weeks": null,
+    "profession": "private company",
+    "visit_date": "2026-02-28"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 10000000,
+    "current_location": "Mulund",
+    "preferred_location": "Thane",
+    "buying_timeline_weeks": 1,
+    "profession": "private company employee",
+    "visit_date": "2024-02-28"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 0,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 0
+}
+
+
+Processing chat_11
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Sharma",
+    "email": "rahul.sharma@gmail.com",
+    "phone": "9876543210",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": "IT services",
+    "visit_date": "2026-03-18"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Sharma",
+    "email": "rahul.sharma@gmail.com",
+    "phone": "9876543210",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": "IT services",
+    "visit_date": "2026-03-18"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_12
+
+Normalized Ground truth data : {
+    "full_name": "Anjali Mehta",
+    "email": "anjali.mehta@gmail.com",
+    "phone": "9823456789",
+    "budget_rupees": 22000000,
+    "current_location": "Thane West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": null,
+    "profession": "Private bank",
+    "visit_date": "2026-04-02"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Anjali Mehta",
+    "email": "anjali.mehta@gmail.com",
+    "phone": "9823456789",
+    "budget_rupees": 22000000,
+    "current_location": "Thane West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 1,
+    "profession": "private bank",
+    "visit_date": "2026-04-02"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_13
+
+Normalized Ground truth data : {
+    "full_name": "Sandeep Kulkarni",
+    "email": "sandeep.k@gmail.com",
+    "phone": "9012345678",
+    "budget_rupees": 27000000,
+    "current_location": "Baner, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Manufacturing business owner",
+    "visit_date": "2026-03-25"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Sandeep Kulkarni",
+    "email": "sandeep.k@gmail.com",
+    "phone": "9012345678",
+    "budget_rupees": 27000000,
+    "current_location": "Baner, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Manufacturing business owner",
+    "visit_date": "2026-03-25"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_14
+
+Normalized Ground truth data : {
+    "full_name": "Kamla Deshpande",
+    "email": "kamla.d@gmail.com",
+    "phone": "8899776655",
+    "budget_rupees": 12000000,
+    "current_location": "Nerul",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": 16,
+    "profession": "Retired",
+    "visit_date": "2026-02-20"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Kamla Deshpande",
+    "email": "kamla.d@gmail.com",
+    "phone": "8899776655",
+    "budget_rupees": 12000000,
+    "current_location": "Nerul",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": 16,
+    "profession": "retired",
+    "visit_date": "2026-02-20"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_15
+
+Normalized Ground truth data : {
+    "full_name": "Arjun Verma",
+    "email": "arjun.verma@gmail.com",
+    "phone": "9988771122",
+    "budget_rupees": 35000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 24,
+    "profession": "Consulting firm",
+    "visit_date": "2026-03-10"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Arjun Verma",
+    "email": "arjun.verma@gmail.com",
+    "phone": "9988771122",
+    "budget_rupees": 35000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 24,
+    "profession": "consulting firm",
+    "visit_date": "2026-03-10"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_16
+
+Normalized Ground truth data : {
+    "full_name": "Rohit Malhotra",
+    "email": "rohit.m@gmail.com",
+    "phone": "9876654321",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 10,
+    "profession": "Private company",
+    "visit_date": "2026-03-08"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rohit Malhotra",
+    "email": "rohit.m@gmail.com",
+    "phone": "9876654321",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 10,
+    "profession": "private company",
+    "visit_date": "2026-03-08"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_17
+
+Normalized Ground truth data : {
+    "full_name": "Ajay Verma",
+    "email": "ajay.verma@gmail.com",
+    "phone": "9011223344",
+    "budget_rupees": 21000000,
+    "current_location": "Kanjurmarg",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 8,
+    "profession": "Business owner",
+    "visit_date": "2026-03-05"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Ajay Verma",
+    "email": "ajay.verma@gmail.com",
+    "phone": "9011223344",
+    "budget_rupees": 21000000,
+    "current_location": "Kanjurmarg",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 8,
+    "profession": "business owner",
+    "visit_date": "2026-03-05"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_18
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Mehra",
+    "email": "rahul.mehra@gmail.com",
+    "phone": "9898989898",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": "IT services",
+    "visit_date": "2026-03-22"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Mehra",
+    "email": "rahul.mehra@gmail.com",
+    "phone": "9898989898",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": "IT services",
+    "visit_date": "2026-03-22"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_19
+
+Normalized Ground truth data : {
+    "full_name": "Ananya Iyer",
+    "email": "ananya.iyer@gmail.com",
+    "phone": "9123456780",
+    "budget_rupees": 22000000,
+    "current_location": "Mulund West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 20,
+    "profession": "Private bank",
+    "visit_date": "2026-04-06"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Ananya Iyer",
+    "email": "ananya.iyer@gmail.com",
+    "phone": "9123456780",
+    "budget_rupees": 22000000,
+    "current_location": "Mulund West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 20,
+    "profession": "private bank",
+    "visit_date": "2026-04-06"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_20
+
+Normalized Ground truth data : {
+    "full_name": "Suresh Patil",
+    "email": "suresh.p@gmail.com",
+    "phone": "9090909090",
+    "budget_rupees": 27000000,
+    "current_location": "Wakad, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Logistics business owner",
+    "visit_date": "2026-03-30"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Suresh Patil",
+    "email": "suresh.p@gmail.com",
+    "phone": "9090909090",
+    "budget_rupees": 27000000,
+    "current_location": "Wakad, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "logistics business owner",
+    "visit_date": "2026-03-30"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+==============================
+Running extraction with model: gpt-5-mini
+==============================
+
+
+Processing chat_01
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Mehta",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Mehta",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 27500000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_02
+
+Normalized Ground truth data : {
+    "full_name": "Anjali",
+    "email": "anjali.s@gmail.com",
+    "phone": null,
+    "budget_rupees": 20000000,
+    "current_location": "Thane",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 24,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Anjali",
+    "email": "anjali.s@gmail.com",
+    "phone": null,
+    "budget_rupees": 20000000,
+    "current_location": "Thane",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 26,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_03
+
+Normalized Ground truth data : {
+    "full_name": "Amit",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 5500000,
+    "current_location": "Kandarpada",
+    "preferred_location": "Mira Road",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Amit",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 5500000,
+    "current_location": "Kandarpada, Mumbai",
+    "preferred_location": "Mira Road",
+    "buying_timeline_weeks": 0,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 0,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_04
+
+Normalized Ground truth data : {
+    "full_name": "Suresh Kumar",
+    "email": null,
+    "phone": "9876501234",
+    "budget_rupees": 11000000,
+    "current_location": "Panvel",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": "next Saturday"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Suresh Kumar",
+    "email": null,
+    "phone": "9876501234",
+    "budget_rupees": 10000000,
+    "current_location": "Panvel",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": "2026-02-07"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 0
+}
+
+
+Processing chat_05
+
+Normalized Ground truth data : {
+    "full_name": "Arjun Malhotra",
+    "email": "arjun.m@gmail.com",
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Delhi",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 11,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Arjun Malhotra",
+    "email": "arjun.m@gmail.com",
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Delhi",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 11,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_06
+
+Normalized Ground truth data : {
+    "full_name": "Rakesh",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 16000000,
+    "current_location": "Kandivali East",
+    "preferred_location": "Malad West",
+    "buying_timeline_weeks": 10,
+    "profession": "service sector",
+    "visit_date": "2026-03-12"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rakesh",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 16000000,
+    "current_location": "Kandivali East",
+    "preferred_location": "Malad West",
+    "buying_timeline_weeks": 10,
+    "profession": "service sector",
+    "visit_date": "2026-03-12"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_07
+
+Normalized Ground truth data : {
+    "full_name": "Sunil",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 18000000,
+    "current_location": "Ghatkopar",
+    "preferred_location": "Chembur East",
+    "buying_timeline_weeks": null,
+    "profession": "business",
+    "visit_date": "2026-03-15"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Sunil",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 18000000,
+    "current_location": "Ghatkopar",
+    "preferred_location": "Chembur",
+    "buying_timeline_weeks": 0.4286,
+    "profession": "Runs own business",
+    "visit_date": "2026-03-15"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 0,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_08
+
+Normalized Ground truth data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 14000000,
+    "current_location": "Borivali East",
+    "preferred_location": "Borivali West",
+    "buying_timeline_weeks": 56,
+    "profession": "retired",
+    "visit_date": "2026-04-05"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 14000000,
+    "current_location": "Borivali East",
+    "preferred_location": "Borivali West",
+    "buying_timeline_weeks": 52,
+    "profession": "Retired",
+    "visit_date": "2026-04-05"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_09
+
+Normalized Ground truth data : {
+    "full_name": "Kunal",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 1,
+    "profession": "finance",
+    "visit_date": "2026-03-20"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Kunal",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 1,
+    "profession": "Finance",
+    "visit_date": "2026-03-20"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_10
+
+Normalized Ground truth data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 10000000,
+    "current_location": "Mulund",
+    "preferred_location": "Thane West",
+    "buying_timeline_weeks": null,
+    "profession": "private company",
+    "visit_date": "2026-02-28"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 10000000,
+    "current_location": "Mulund",
+    "preferred_location": "Thane",
+    "buying_timeline_weeks": 1,
+    "profession": "Working in a private company",
+    "visit_date": "2026-02-28"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 0,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_11
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Sharma",
+    "email": "rahul.sharma@gmail.com",
+    "phone": "9876543210",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": "IT services",
+    "visit_date": "2026-03-18"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Sharma",
+    "email": "rahul.sharma@gmail.com",
+    "phone": "9876543210",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": "IT services",
+    "visit_date": "2026-03-18"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_12
+
+Normalized Ground truth data : {
+    "full_name": "Anjali Mehta",
+    "email": "anjali.mehta@gmail.com",
+    "phone": "9823456789",
+    "budget_rupees": 22000000,
+    "current_location": "Thane West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": null,
+    "profession": "Private bank",
+    "visit_date": "2026-04-02"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Anjali Mehta",
+    "email": "anjali.mehta@gmail.com",
+    "phone": "9823456789",
+    "budget_rupees": 22000000,
+    "current_location": "Thane West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 1.43,
+    "profession": "Private bank",
+    "visit_date": "2026-04-02"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_13
+
+Normalized Ground truth data : {
+    "full_name": "Sandeep Kulkarni",
+    "email": "sandeep.k@gmail.com",
+    "phone": "9012345678",
+    "budget_rupees": 27000000,
+    "current_location": "Baner, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Manufacturing business owner",
+    "visit_date": "2026-03-25"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Sandeep Kulkarni",
+    "email": "sandeep.k@gmail.com",
+    "phone": "9012345678",
+    "budget_rupees": 27000000,
+    "current_location": "Baner, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 26,
+    "profession": "Manufacturing business owner",
+    "visit_date": "2026-03-25"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_14
+
+Normalized Ground truth data : {
+    "full_name": "Kamla Deshpande",
+    "email": "kamla.d@gmail.com",
+    "phone": "8899776655",
+    "budget_rupees": 12000000,
+    "current_location": "Nerul",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": 16,
+    "profession": "Retired",
+    "visit_date": "2026-02-20"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Kamla Deshpande",
+    "email": "kamla.d@gmail.com",
+    "phone": "8899776655",
+    "budget_rupees": 12000000,
+    "current_location": "Nerul",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": 16,
+    "profession": "Retired",
+    "visit_date": "2026-02-20"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_15
+
+Normalized Ground truth data : {
+    "full_name": "Arjun Verma",
+    "email": "arjun.verma@gmail.com",
+    "phone": "9988771122",
+    "budget_rupees": 35000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 24,
+    "profession": "Consulting firm",
+    "visit_date": "2026-03-10"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Arjun Verma",
+    "email": "arjun.verma@gmail.com",
+    "phone": "9988771122",
+    "budget_rupees": 35000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 24,
+    "profession": "Consultant",
+    "visit_date": "2026-03-10"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_16
+
+Normalized Ground truth data : {
+    "full_name": "Rohit Malhotra",
+    "email": "rohit.m@gmail.com",
+    "phone": "9876654321",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 10,
+    "profession": "Private company",
+    "visit_date": "2026-03-08"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rohit Malhotra",
+    "email": "rohit.m@gmail.com",
+    "phone": "9876654321",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 10,
+    "profession": "Private company employee",
+    "visit_date": "2026-03-08"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_17
+
+Normalized Ground truth data : {
+    "full_name": "Ajay Verma",
+    "email": "ajay.verma@gmail.com",
+    "phone": "9011223344",
+    "budget_rupees": 21000000,
+    "current_location": "Kanjurmarg",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 8,
+    "profession": "Business owner",
+    "visit_date": "2026-03-05"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Ajay Verma",
+    "email": "ajay.verma@gmail.com",
+    "phone": "9011223344",
+    "budget_rupees": 21000000,
+    "current_location": "Kanjurmarg, Mumbai",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 8,
+    "profession": "Business owner",
+    "visit_date": "2026-03-05"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 0,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_18
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Mehra",
+    "email": "rahul.mehra@gmail.com",
+    "phone": "9898989898",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": "IT services",
+    "visit_date": "2026-03-22"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Mehra",
+    "email": "rahul.mehra@gmail.com",
+    "phone": "9898989898",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East, Mumbai",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": "IT services",
+    "visit_date": "2026-03-22"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 0,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_19
+
+Normalized Ground truth data : {
+    "full_name": "Ananya Iyer",
+    "email": "ananya.iyer@gmail.com",
+    "phone": "9123456780",
+    "budget_rupees": 22000000,
+    "current_location": "Mulund West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 20,
+    "profession": "Private bank",
+    "visit_date": "2026-04-06"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Ananya Iyer",
+    "email": "ananya.iyer@gmail.com",
+    "phone": "9123456780",
+    "budget_rupees": 22000000,
+    "current_location": "Mulund West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 20,
+    "profession": "Private bank",
+    "visit_date": "2026-04-06"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_20
+
+Normalized Ground truth data : {
+    "full_name": "Suresh Patil",
+    "email": "suresh.p@gmail.com",
+    "phone": "9090909090",
+    "budget_rupees": 27000000,
+    "current_location": "Wakad, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Logistics business owner",
+    "visit_date": "2026-03-30"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Suresh Patil",
+    "email": "suresh.p@gmail.com",
+    "phone": "9090909090",
+    "budget_rupees": 27000000,
+    "current_location": "Wakad, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Logistics business owner",
+    "visit_date": "2026-03-30"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+=== FINAL METRICS (PER MODEL) ===
+{
+  "gpt-4.1-nano": {
+    "true_positives": 154,
+    "false_negatives": 26,
+    "precision": 0.8556,
+    "recall": 0.8556,
+    "f1": 0.8556,
+    "latency": {
+      "avg_latency_ms": 1684.21,
+      "min_latency_ms": 987.69,
+      "max_latency_ms": 3869.68,
+      "num_samples": 20
+    }
+  },
+  "gpt-4.1-mini": {
+    "true_positives": 160,
+    "false_negatives": 20,
+    "precision": 0.8889,
+    "recall": 0.8889,
+    "f1": 0.8889,
+    "latency": {
+      "avg_latency_ms": 2089.16,
+      "min_latency_ms": 1569.36,
+      "max_latency_ms": 3411.66,
+      "num_samples": 20
+    }
+  },
+  "gpt-5-mini": {
+    "true_positives": 159,
+    "false_negatives": 21,
+    "precision": 0.8833,
+    "recall": 0.8833,
+    "f1": 0.8833,
+    "latency": {
+      "avg_latency_ms": 12244.99,
+      "min_latency_ms": 8860.94,
+      "max_latency_ms": 18303.2,
+      "num_samples": 20
+    }
+  }
+}
+%%%%%%%%%%%%%%%%%%%% End of Evauation of prompt1.txt %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% Evaluating prompt prompt2.txt %%%%%%%%%%%%%%%%%%%%
+
+==============================
+Running extraction with model: gpt-4.1-nano
+==============================
+
+
+Processing chat_01
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Mehta",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Mehta",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 300000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_02
+
+Normalized Ground truth data : {
+    "full_name": "Anjali",
+    "email": "anjali.s@gmail.com",
+    "phone": null,
+    "budget_rupees": 20000000,
+    "current_location": "Thane",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 24,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Anjali",
+    "email": "anjali.s@gmail.com",
+    "phone": null,
+    "budget_rupees": 200000000,
+    "current_location": "Thane",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 24,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_03
+
+Normalized Ground truth data : {
+    "full_name": "Amit",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 5500000,
+    "current_location": "Kandarpada",
+    "preferred_location": "Mira Road",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Amit",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 5500000,
+    "current_location": "Kandarpada",
+    "preferred_location": "Mira Road",
+    "buying_timeline_weeks": 0,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_04
+
+Normalized Ground truth data : {
+    "full_name": "Suresh Kumar",
+    "email": null,
+    "phone": "9876501234",
+    "budget_rupees": 11000000,
+    "current_location": "Panvel",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": "next Saturday"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Suresh Kumar",
+    "email": null,
+    "phone": "9876501234",
+    "budget_rupees": null,
+    "current_location": "Panvel",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": "2023-12-02"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 0
+}
+
+
+Processing chat_05
+
+Normalized Ground truth data : {
+    "full_name": "Arjun Malhotra",
+    "email": "arjun.m@gmail.com",
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Delhi",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 11,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Arjun Malhotra",
+    "email": "arjun.m@gmail.com",
+    "phone": null,
+    "budget_rupees": 300000000,
+    "current_location": "Delhi",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 11,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_06
+
+Normalized Ground truth data : {
+    "full_name": "Rakesh",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 16000000,
+    "current_location": "Kandivali East",
+    "preferred_location": "Malad West",
+    "buying_timeline_weeks": 10,
+    "profession": "service sector",
+    "visit_date": "2026-03-12"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rakesh",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 160000000,
+    "current_location": "Kandivali East",
+    "preferred_location": "Malad West",
+    "buying_timeline_weeks": 10,
+    "profession": "service sector",
+    "visit_date": "2026-03-12"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_07
+
+Normalized Ground truth data : {
+    "full_name": "Sunil",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 18000000,
+    "current_location": "Ghatkopar",
+    "preferred_location": "Chembur East",
+    "buying_timeline_weeks": null,
+    "profession": "business",
+    "visit_date": "2026-03-15"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 180000000,
+    "current_location": "Ghatkopar",
+    "preferred_location": "Chembur East",
+    "buying_timeline_weeks": 0,
+    "profession": "own business",
+    "visit_date": "2026-03-15"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 0,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_08
+
+Normalized Ground truth data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 14000000,
+    "current_location": "Borivali East",
+    "preferred_location": "Borivali West",
+    "buying_timeline_weeks": 56,
+    "profession": "retired",
+    "visit_date": "2026-04-05"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 140000000,
+    "current_location": "Borivali East",
+    "preferred_location": "Borivali West",
+    "buying_timeline_weeks": null,
+    "profession": "retired",
+    "visit_date": "2026-04-05"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_09
+
+Normalized Ground truth data : {
+    "full_name": "Kunal",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 1,
+    "profession": "finance",
+    "visit_date": "2026-03-20"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 1,
+    "profession": "finance",
+    "visit_date": "2026-03-20"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 0,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_10
+
+Normalized Ground truth data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 10000000,
+    "current_location": "Mulund",
+    "preferred_location": "Thane West",
+    "buying_timeline_weeks": null,
+    "profession": "private company",
+    "visit_date": "2026-02-28"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 9500000,
+    "current_location": "Mulund",
+    "preferred_location": "Thane West",
+    "buying_timeline_weeks": 2,
+    "profession": "private company",
+    "visit_date": "2023-02-28"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 0
+}
+
+
+Processing chat_11
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Sharma",
+    "email": "rahul.sharma@gmail.com",
+    "phone": "9876543210",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": "IT services",
+    "visit_date": "2026-03-18"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Sharma",
+    "email": "rahul.sharma@gmail.com",
+    "phone": "9876543210",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": "IT services sector",
+    "visit_date": "2026-03-18"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_12
+
+Normalized Ground truth data : {
+    "full_name": "Anjali Mehta",
+    "email": "anjali.mehta@gmail.com",
+    "phone": "9823456789",
+    "budget_rupees": 22000000,
+    "current_location": "Thane West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": null,
+    "profession": "Private bank",
+    "visit_date": "2026-04-02"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Anjali Mehta",
+    "email": "anjali.mehta@gmail.com",
+    "phone": "9823456789",
+    "budget_rupees": 22000000,
+    "current_location": "Thane West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 2,
+    "profession": "private bank",
+    "visit_date": "2026-04-02"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_13
+
+Normalized Ground truth data : {
+    "full_name": "Sandeep Kulkarni",
+    "email": "sandeep.k@gmail.com",
+    "phone": "9012345678",
+    "budget_rupees": 27000000,
+    "current_location": "Baner, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Manufacturing business owner",
+    "visit_date": "2026-03-25"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Sandeep Kulkarni",
+    "email": "sandeep.k@gmail.com",
+    "phone": "9012345678",
+    "budget_rupees": 27000000,
+    "current_location": "Baner, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "manufacturing business",
+    "visit_date": "2026-03-25"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_14
+
+Normalized Ground truth data : {
+    "full_name": "Kamla Deshpande",
+    "email": "kamla.d@gmail.com",
+    "phone": "8899776655",
+    "budget_rupees": 12000000,
+    "current_location": "Nerul",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": 16,
+    "profession": "Retired",
+    "visit_date": "2026-02-20"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Kamla Deshpande",
+    "email": "kamla.d@gmail.com",
+    "phone": "8899776655",
+    "budget_rupees": 12000000,
+    "current_location": "Nerul",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": 16,
+    "profession": "retired",
+    "visit_date": "2026-02-20"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_15
+
+Normalized Ground truth data : {
+    "full_name": "Arjun Verma",
+    "email": "arjun.verma@gmail.com",
+    "phone": "9988771122",
+    "budget_rupees": 35000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 24,
+    "profession": "Consulting firm",
+    "visit_date": "2026-03-10"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Arjun Verma",
+    "email": "arjun.verma@gmail.com",
+    "phone": "9988771122",
+    "budget_rupees": 350000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 24,
+    "profession": "consulting firm",
+    "visit_date": "2026-03-10"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_16
+
+Normalized Ground truth data : {
+    "full_name": "Rohit Malhotra",
+    "email": "rohit.m@gmail.com",
+    "phone": "9876654321",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 10,
+    "profession": "Private company",
+    "visit_date": "2026-03-08"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rohit Malhotra",
+    "email": "rohit.m@gmail.com",
+    "phone": "9876654321",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Lokhandwala",
+    "buying_timeline_weeks": 10,
+    "profession": "private company",
+    "visit_date": "2026-03-08"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 0,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_17
+
+Normalized Ground truth data : {
+    "full_name": "Ajay Verma",
+    "email": "ajay.verma@gmail.com",
+    "phone": "9011223344",
+    "budget_rupees": 21000000,
+    "current_location": "Kanjurmarg",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 8,
+    "profession": "Business owner",
+    "visit_date": "2026-03-05"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Ajay Verma",
+    "email": "ajay.verma@gmail.com",
+    "phone": "9011223344",
+    "budget_rupees": 21000000,
+    "current_location": "Kanjurmarg",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 8,
+    "profession": "business owner",
+    "visit_date": "2026-03-05"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_18
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Mehra",
+    "email": "rahul.mehra@gmail.com",
+    "phone": "9898989898",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": "IT services",
+    "visit_date": "2026-03-22"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Mehra",
+    "email": "rahul.mehra@gmail.com",
+    "phone": "9898989898",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": "IT services company",
+    "visit_date": "2026-03-22"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_19
+
+Normalized Ground truth data : {
+    "full_name": "Ananya Iyer",
+    "email": "ananya.iyer@gmail.com",
+    "phone": "9123456780",
+    "budget_rupees": 22000000,
+    "current_location": "Mulund West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 20,
+    "profession": "Private bank",
+    "visit_date": "2026-04-06"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Ananya Iyer",
+    "email": "ananya.iyer@gmail.com",
+    "phone": "9123456780",
+    "budget_rupees": 22000000,
+    "current_location": "Mulund West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 20,
+    "profession": "private bank",
+    "visit_date": "2026-04-06"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_20
+
+Normalized Ground truth data : {
+    "full_name": "Suresh Patil",
+    "email": "suresh.p@gmail.com",
+    "phone": "9090909090",
+    "budget_rupees": 27000000,
+    "current_location": "Wakad, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Logistics business owner",
+    "visit_date": "2026-03-30"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Suresh Patil",
+    "email": "suresh.p@gmail.com",
+    "phone": "9090909090",
+    "budget_rupees": 27000000,
+    "current_location": "Wakad, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "logistics business",
+    "visit_date": "2026-03-30"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+==============================
+Running extraction with model: gpt-4.1-mini
+==============================
+
+
+Processing chat_01
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Mehta",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Mehta",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_02
+
+Normalized Ground truth data : {
+    "full_name": "Anjali",
+    "email": "anjali.s@gmail.com",
+    "phone": null,
+    "budget_rupees": 20000000,
+    "current_location": "Thane",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 24,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Anjali",
+    "email": "anjali.s@gmail.com",
+    "phone": null,
+    "budget_rupees": 20000000,
+    "current_location": "Thane",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 26,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_03
+
+Normalized Ground truth data : {
+    "full_name": "Amit",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 5500000,
+    "current_location": "Kandarpada",
+    "preferred_location": "Mira Road",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Amit",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 5500000,
+    "current_location": "Kandarpada",
+    "preferred_location": "Mira Road",
+    "buying_timeline_weeks": 0,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_04
+
+Normalized Ground truth data : {
+    "full_name": "Suresh Kumar",
+    "email": null,
+    "phone": "9876501234",
+    "budget_rupees": 11000000,
+    "current_location": "Panvel",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": "next Saturday"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Suresh Kumar",
+    "email": null,
+    "phone": "9876501234",
+    "budget_rupees": 11000000,
+    "current_location": "Panvel",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 0
+}
+
+
+Processing chat_05
+
+Normalized Ground truth data : {
+    "full_name": "Arjun Malhotra",
+    "email": "arjun.m@gmail.com",
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Delhi",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 11,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Arjun Malhotra",
+    "email": "arjun.m@gmail.com",
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Delhi",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 11,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_06
+
+Normalized Ground truth data : {
+    "full_name": "Rakesh",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 16000000,
+    "current_location": "Kandivali East",
+    "preferred_location": "Malad West",
+    "buying_timeline_weeks": 10,
+    "profession": "service sector",
+    "visit_date": "2026-03-12"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rakesh",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 16000000,
+    "current_location": "Kandivali East",
+    "preferred_location": "Malad West",
+    "buying_timeline_weeks": 10,
+    "profession": "service sector",
+    "visit_date": "2026-03-12"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_07
+
+Normalized Ground truth data : {
+    "full_name": "Sunil",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 18000000,
+    "current_location": "Ghatkopar",
+    "preferred_location": "Chembur East",
+    "buying_timeline_weeks": null,
+    "profession": "business",
+    "visit_date": "2026-03-15"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Sunil",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 18000000,
+    "current_location": "Ghatkopar",
+    "preferred_location": "Chembur",
+    "buying_timeline_weeks": 1,
+    "profession": "business owner",
+    "visit_date": "2026-03-15"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 0,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_08
+
+Normalized Ground truth data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 14000000,
+    "current_location": "Borivali East",
+    "preferred_location": "Borivali West",
+    "buying_timeline_weeks": 56,
+    "profession": "retired",
+    "visit_date": "2026-04-05"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 14000000,
+    "current_location": "Borivali East",
+    "preferred_location": "Borivali West",
+    "buying_timeline_weeks": 52,
+    "profession": "retired",
+    "visit_date": "2026-04-05"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_09
+
+Normalized Ground truth data : {
+    "full_name": "Kunal",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 1,
+    "profession": "finance",
+    "visit_date": "2026-03-20"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Kunal",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 1,
+    "profession": "finance",
+    "visit_date": "2026-03-20"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_10
+
+Normalized Ground truth data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 10000000,
+    "current_location": "Mulund",
+    "preferred_location": "Thane West",
+    "buying_timeline_weeks": null,
+    "profession": "private company",
+    "visit_date": "2026-02-28"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 10000000,
+    "current_location": "Mulund",
+    "preferred_location": "Thane",
+    "buying_timeline_weeks": 1,
+    "profession": "private company",
+    "visit_date": "2024-02-28"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 0,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 0
+}
+
+
+Processing chat_11
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Sharma",
+    "email": "rahul.sharma@gmail.com",
+    "phone": "9876543210",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": "IT services",
+    "visit_date": "2026-03-18"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Sharma",
+    "email": "rahul.sharma@gmail.com",
+    "phone": "9876543210",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": "IT services",
+    "visit_date": "2026-03-18"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_12
+
+Normalized Ground truth data : {
+    "full_name": "Anjali Mehta",
+    "email": "anjali.mehta@gmail.com",
+    "phone": "9823456789",
+    "budget_rupees": 22000000,
+    "current_location": "Thane West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": null,
+    "profession": "Private bank",
+    "visit_date": "2026-04-02"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Anjali Mehta",
+    "email": "anjali.mehta@gmail.com",
+    "phone": "9823456789",
+    "budget_rupees": 22000000,
+    "current_location": "Thane West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 2,
+    "profession": "private bank",
+    "visit_date": "2026-04-02"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_13
+
+Normalized Ground truth data : {
+    "full_name": "Sandeep Kulkarni",
+    "email": "sandeep.k@gmail.com",
+    "phone": "9012345678",
+    "budget_rupees": 27000000,
+    "current_location": "Baner, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Manufacturing business owner",
+    "visit_date": "2026-03-25"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Sandeep Kulkarni",
+    "email": "sandeep.k@gmail.com",
+    "phone": "9012345678",
+    "budget_rupees": 27000000,
+    "current_location": "Baner, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "manufacturing business owner",
+    "visit_date": "2026-03-25"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_14
+
+Normalized Ground truth data : {
+    "full_name": "Kamla Deshpande",
+    "email": "kamla.d@gmail.com",
+    "phone": "8899776655",
+    "budget_rupees": 12000000,
+    "current_location": "Nerul",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": 16,
+    "profession": "Retired",
+    "visit_date": "2026-02-20"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Kamla Deshpande",
+    "email": "kamla.d@gmail.com",
+    "phone": "8899776655",
+    "budget_rupees": 12000000,
+    "current_location": "Nerul",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": 16,
+    "profession": "retired",
+    "visit_date": "2026-02-20"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_15
+
+Normalized Ground truth data : {
+    "full_name": "Arjun Verma",
+    "email": "arjun.verma@gmail.com",
+    "phone": "9988771122",
+    "budget_rupees": 35000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 24,
+    "profession": "Consulting firm",
+    "visit_date": "2026-03-10"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Arjun Verma",
+    "email": "arjun.verma@gmail.com",
+    "phone": "9988771122",
+    "budget_rupees": 35000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 24,
+    "profession": "consulting firm",
+    "visit_date": "2026-03-10"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_16
+
+Normalized Ground truth data : {
+    "full_name": "Rohit Malhotra",
+    "email": "rohit.m@gmail.com",
+    "phone": "9876654321",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 10,
+    "profession": "Private company",
+    "visit_date": "2026-03-08"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rohit Malhotra",
+    "email": "rohit.m@gmail.com",
+    "phone": "9876654321",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 10,
+    "profession": "private company",
+    "visit_date": "2026-03-08"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_17
+
+Normalized Ground truth data : {
+    "full_name": "Ajay Verma",
+    "email": "ajay.verma@gmail.com",
+    "phone": "9011223344",
+    "budget_rupees": 21000000,
+    "current_location": "Kanjurmarg",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 8,
+    "profession": "Business owner",
+    "visit_date": "2026-03-05"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Ajay Verma",
+    "email": "ajay.verma@gmail.com",
+    "phone": "9011223344",
+    "budget_rupees": 21000000,
+    "current_location": "Kanjurmarg",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 8,
+    "profession": "business owner",
+    "visit_date": "2026-03-05"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_18
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Mehra",
+    "email": "rahul.mehra@gmail.com",
+    "phone": "9898989898",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": "IT services",
+    "visit_date": "2026-03-22"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Mehra",
+    "email": "rahul.mehra@gmail.com",
+    "phone": "9898989898",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": "IT services",
+    "visit_date": "2026-03-22"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_19
+
+Normalized Ground truth data : {
+    "full_name": "Ananya Iyer",
+    "email": "ananya.iyer@gmail.com",
+    "phone": "9123456780",
+    "budget_rupees": 22000000,
+    "current_location": "Mulund West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 20,
+    "profession": "Private bank",
+    "visit_date": "2026-04-06"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Ananya Iyer",
+    "email": "ananya.iyer@gmail.com",
+    "phone": "9123456780",
+    "budget_rupees": 22000000,
+    "current_location": "Mulund West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 20,
+    "profession": "private bank",
+    "visit_date": "2026-04-06"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_20
+
+Normalized Ground truth data : {
+    "full_name": "Suresh Patil",
+    "email": "suresh.p@gmail.com",
+    "phone": "9090909090",
+    "budget_rupees": 27000000,
+    "current_location": "Wakad, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Logistics business owner",
+    "visit_date": "2026-03-30"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Suresh Patil",
+    "email": "suresh.p@gmail.com",
+    "phone": "9090909090",
+    "budget_rupees": 27000000,
+    "current_location": "Wakad, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "logistics business",
+    "visit_date": "2026-03-30"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+==============================
+Running extraction with model: gpt-5-mini
+==============================
+
+
+Processing chat_01
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Mehta",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Mehta",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 27500000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 15,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_02
+
+Normalized Ground truth data : {
+    "full_name": "Anjali",
+    "email": "anjali.s@gmail.com",
+    "phone": null,
+    "budget_rupees": 20000000,
+    "current_location": "Thane",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 24,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Anjali",
+    "email": "anjali.s@gmail.com",
+    "phone": null,
+    "budget_rupees": 20000000,
+    "current_location": "Thane",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 26,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_03
+
+Normalized Ground truth data : {
+    "full_name": "Amit",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 5500000,
+    "current_location": "Kandarpada",
+    "preferred_location": "Mira Road",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Amit",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 5500000,
+    "current_location": "Kandarpada, Mumbai",
+    "preferred_location": "Mira Road",
+    "buying_timeline_weeks": 0,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 0,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_04
+
+Normalized Ground truth data : {
+    "full_name": "Suresh Kumar",
+    "email": null,
+    "phone": "9876501234",
+    "budget_rupees": 11000000,
+    "current_location": "Panvel",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": "next Saturday"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Suresh Kumar",
+    "email": null,
+    "phone": "9876501234",
+    "budget_rupees": [
+        10000000,
+        11000000
+    ],
+    "current_location": "Panvel",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": "2026-02-07"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 0
+}
+
+
+Processing chat_05
+
+Normalized Ground truth data : {
+    "full_name": "Arjun Malhotra",
+    "email": "arjun.m@gmail.com",
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Delhi",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 11,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Arjun Malhotra",
+    "email": "arjun.m@gmail.com",
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Delhi",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 11,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_06
+
+Normalized Ground truth data : {
+    "full_name": "Rakesh",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 16000000,
+    "current_location": "Kandivali East",
+    "preferred_location": "Malad West",
+    "buying_timeline_weeks": 10,
+    "profession": "service sector",
+    "visit_date": "2026-03-12"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rakesh",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 16000000,
+    "current_location": "Kandivali East",
+    "preferred_location": "Malad West",
+    "buying_timeline_weeks": 10,
+    "profession": "service sector",
+    "visit_date": "2026-03-12"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_07
+
+Normalized Ground truth data : {
+    "full_name": "Sunil",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 18000000,
+    "current_location": "Ghatkopar",
+    "preferred_location": "Chembur East",
+    "buying_timeline_weeks": null,
+    "profession": "business",
+    "visit_date": "2026-03-15"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Sunil",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 18000000,
+    "current_location": "Ghatkopar",
+    "preferred_location": "Chembur",
+    "buying_timeline_weeks": 0.43,
+    "profession": "Business owner",
+    "visit_date": "2026-03-15"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 0,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_08
+
+Normalized Ground truth data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 14000000,
+    "current_location": "Borivali East",
+    "preferred_location": "Borivali West",
+    "buying_timeline_weeks": 56,
+    "profession": "retired",
+    "visit_date": "2026-04-05"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 14000000,
+    "current_location": "Borivali East",
+    "preferred_location": "Borivali West",
+    "buying_timeline_weeks": [
+        52,
+        69
+    ],
+    "profession": "Retired",
+    "visit_date": "2026-04-05"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_09
+
+Normalized Ground truth data : {
+    "full_name": "Kunal",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 1,
+    "profession": "finance",
+    "visit_date": "2026-03-20"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Kunal",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Worli, Mumbai",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 1,
+    "profession": "Finance",
+    "visit_date": "2026-03-20"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 0,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_10
+
+Normalized Ground truth data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 10000000,
+    "current_location": "Mulund",
+    "preferred_location": "Thane West",
+    "buying_timeline_weeks": null,
+    "profession": "private company",
+    "visit_date": "2026-02-28"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 10000000,
+    "current_location": "Mulund",
+    "preferred_location": "Thane",
+    "buying_timeline_weeks": 1.3,
+    "profession": "Private company employee",
+    "visit_date": "2026-02-28"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 0,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_11
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Sharma",
+    "email": "rahul.sharma@gmail.com",
+    "phone": "9876543210",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": "IT services",
+    "visit_date": "2026-03-18"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Sharma",
+    "email": "rahul.sharma@gmail.com",
+    "phone": "9876543210",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": [
+        12,
+        16
+    ],
+    "profession": "IT services",
+    "visit_date": "2026-03-18"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_12
+
+Normalized Ground truth data : {
+    "full_name": "Anjali Mehta",
+    "email": "anjali.mehta@gmail.com",
+    "phone": "9823456789",
+    "budget_rupees": 22000000,
+    "current_location": "Thane West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": null,
+    "profession": "Private bank",
+    "visit_date": "2026-04-02"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Anjali Mehta",
+    "email": "anjali.mehta@gmail.com",
+    "phone": "9823456789",
+    "budget_rupees": 22000000,
+    "current_location": "Thane West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 1.428571,
+    "profession": "Private bank employee",
+    "visit_date": "2026-04-02"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_13
+
+Normalized Ground truth data : {
+    "full_name": "Sandeep Kulkarni",
+    "email": "sandeep.k@gmail.com",
+    "phone": "9012345678",
+    "budget_rupees": 27000000,
+    "current_location": "Baner, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Manufacturing business owner",
+    "visit_date": "2026-03-25"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Sandeep Kulkarni",
+    "email": "sandeep.k@gmail.com",
+    "phone": "9012345678",
+    "budget_rupees": 27000000,
+    "current_location": "Baner, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 26,
+    "profession": "Manufacturing business owner",
+    "visit_date": "2026-03-25"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_14
+
+Normalized Ground truth data : {
+    "full_name": "Kamla Deshpande",
+    "email": "kamla.d@gmail.com",
+    "phone": "8899776655",
+    "budget_rupees": 12000000,
+    "current_location": "Nerul",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": 16,
+    "profession": "Retired",
+    "visit_date": "2026-02-20"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Kamla Deshpande",
+    "email": "kamla.d@gmail.com",
+    "phone": "8899776655",
+    "budget_rupees": 12000000,
+    "current_location": "Nerul",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": 16,
+    "profession": "Retired",
+    "visit_date": "2026-02-20"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_15
+
+Normalized Ground truth data : {
+    "full_name": "Arjun Verma",
+    "email": "arjun.verma@gmail.com",
+    "phone": "9988771122",
+    "budget_rupees": 35000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 24,
+    "profession": "Consulting firm",
+    "visit_date": "2026-03-10"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Arjun Verma",
+    "email": "arjun.verma@gmail.com",
+    "phone": "9988771122",
+    "budget_rupees": 35000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 24,
+    "profession": "Consultant",
+    "visit_date": "2026-03-10"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_16
+
+Normalized Ground truth data : {
+    "full_name": "Rohit Malhotra",
+    "email": "rohit.m@gmail.com",
+    "phone": "9876654321",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 10,
+    "profession": "Private company",
+    "visit_date": "2026-03-08"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rohit Malhotra",
+    "email": "rohit.m@gmail.com",
+    "phone": "9876654321",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 10,
+    "profession": "Private company employee",
+    "visit_date": "2026-03-08"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_17
+
+Normalized Ground truth data : {
+    "full_name": "Ajay Verma",
+    "email": "ajay.verma@gmail.com",
+    "phone": "9011223344",
+    "budget_rupees": 21000000,
+    "current_location": "Kanjurmarg",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 8,
+    "profession": "Business owner",
+    "visit_date": "2026-03-05"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Ajay Verma",
+    "email": "ajay.verma@gmail.com",
+    "phone": "9011223344",
+    "budget_rupees": 21000000,
+    "current_location": "Kanjurmarg, Mumbai",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 8,
+    "profession": "Business owner",
+    "visit_date": "2026-03-05"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 0,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_18
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Mehra",
+    "email": "rahul.mehra@gmail.com",
+    "phone": "9898989898",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": "IT services",
+    "visit_date": "2026-03-22"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Mehra",
+    "email": "rahul.mehra@gmail.com",
+    "phone": "9898989898",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": "IT services",
+    "visit_date": "2026-03-22"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_19
+
+Normalized Ground truth data : {
+    "full_name": "Ananya Iyer",
+    "email": "ananya.iyer@gmail.com",
+    "phone": "9123456780",
+    "budget_rupees": 22000000,
+    "current_location": "Mulund West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 20,
+    "profession": "Private bank",
+    "visit_date": "2026-04-06"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Ananya Iyer",
+    "email": "ananya.iyer@gmail.com",
+    "phone": "9123456780",
+    "budget_rupees": 22000000,
+    "current_location": "Mulund West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 20,
+    "profession": "Private bank employee",
+    "visit_date": "2026-04-06"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_20
+
+Normalized Ground truth data : {
+    "full_name": "Suresh Patil",
+    "email": "suresh.p@gmail.com",
+    "phone": "9090909090",
+    "budget_rupees": 27000000,
+    "current_location": "Wakad, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Logistics business owner",
+    "visit_date": "2026-03-30"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Suresh Patil",
+    "email": "suresh.p@gmail.com",
+    "phone": "9090909090",
+    "budget_rupees": 27000000,
+    "current_location": "Wakad, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Logistics business owner",
+    "visit_date": "2026-03-30"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+=== FINAL METRICS (PER MODEL) ===
+{
+  "gpt-4.1-nano": {
+    "true_positives": 149,
+    "false_negatives": 31,
+    "precision": 0.8278,
+    "recall": 0.8278,
+    "f1": 0.8278,
+    "latency": {
+      "avg_latency_ms": 1329.47,
+      "min_latency_ms": 893.92,
+      "max_latency_ms": 1954.89,
+      "num_samples": 20
+    }
+  },
+  "gpt-4.1-mini": {
+    "true_positives": 160,
+    "false_negatives": 20,
+    "precision": 0.8889,
+    "recall": 0.8889,
+    "f1": 0.8889,
+    "latency": {
+      "avg_latency_ms": 2383.13,
+      "min_latency_ms": 1188.29,
+      "max_latency_ms": 6623.84,
+      "num_samples": 20
+    }
+  },
+  "gpt-5-mini": {
+    "true_positives": 155,
+    "false_negatives": 25,
+    "precision": 0.8611,
+    "recall": 0.8611,
+    "f1": 0.8611,
+    "latency": {
+      "avg_latency_ms": 13267.38,
+      "min_latency_ms": 7727.57,
+      "max_latency_ms": 21089.2,
+      "num_samples": 20
+    }
+  }
+}
+%%%%%%%%%%%%%%%%%%%% End of Evauation of prompt2.txt %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% Evaluating prompt prompt3.txt %%%%%%%%%%%%%%%%%%%%
+
+==============================
+Running extraction with model: gpt-4.1-nano
+==============================
+
+
+Processing chat_01
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Mehta",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Mehta",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_02
+
+Normalized Ground truth data : {
+    "full_name": "Anjali",
+    "email": "anjali.s@gmail.com",
+    "phone": null,
+    "budget_rupees": 20000000,
+    "current_location": "Thane",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 24,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Anjali",
+    "email": "anjali.s@gmail.com",
+    "phone": null,
+    "budget_rupees": 20000000,
+    "current_location": "Thane",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 24,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_03
+
+Normalized Ground truth data : {
+    "full_name": "Amit",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 5500000,
+    "current_location": "Kandarpada",
+    "preferred_location": "Mira Road",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Amit",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 5500000,
+    "current_location": "Kandarpada",
+    "preferred_location": "Mira Road",
+    "buying_timeline_weeks": 0,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_04
+
+Normalized Ground truth data : {
+    "full_name": "Suresh Kumar",
+    "email": null,
+    "phone": "9876501234",
+    "budget_rupees": 11000000,
+    "current_location": "Panvel",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": "next Saturday"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Suresh Kumar",
+    "email": null,
+    "phone": "9876501234",
+    "budget_rupees": 11000000,
+    "current_location": "Panvel",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 0
+}
+
+
+Processing chat_05
+
+Normalized Ground truth data : {
+    "full_name": "Arjun Malhotra",
+    "email": "arjun.m@gmail.com",
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Delhi",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 11,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Arjun Malhotra",
+    "email": "arjun.m@gmail.com",
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Delhi",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 11,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_06
+
+Normalized Ground truth data : {
+    "full_name": "Rakesh",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 16000000,
+    "current_location": "Kandivali East",
+    "preferred_location": "Malad West",
+    "buying_timeline_weeks": 10,
+    "profession": "service sector",
+    "visit_date": "2026-03-12"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rakesh",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 160000000,
+    "current_location": "Kandivali East",
+    "preferred_location": "Malad West",
+    "buying_timeline_weeks": 10,
+    "profession": "service sector",
+    "visit_date": "2026-03-12"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_07
+
+Normalized Ground truth data : {
+    "full_name": "Sunil",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 18000000,
+    "current_location": "Ghatkopar",
+    "preferred_location": "Chembur East",
+    "buying_timeline_weeks": null,
+    "profession": "business",
+    "visit_date": "2026-03-15"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 18000000,
+    "current_location": "Ghatkopar",
+    "preferred_location": "Chembur East",
+    "buying_timeline_weeks": 0,
+    "profession": "business owner",
+    "visit_date": "2026-03-15"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 0,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_08
+
+Normalized Ground truth data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 14000000,
+    "current_location": "Borivali East",
+    "preferred_location": "Borivali West",
+    "buying_timeline_weeks": 56,
+    "profession": "retired",
+    "visit_date": "2026-04-05"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 14000000,
+    "current_location": "Borivali East",
+    "preferred_location": "Borivali West",
+    "buying_timeline_weeks": null,
+    "profession": "retired",
+    "visit_date": "2026-04-05"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_09
+
+Normalized Ground truth data : {
+    "full_name": "Kunal",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 1,
+    "profession": "finance",
+    "visit_date": "2026-03-20"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 1,
+    "profession": "finance",
+    "visit_date": "2026-03-20"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 0,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_10
+
+Normalized Ground truth data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 10000000,
+    "current_location": "Mulund",
+    "preferred_location": "Thane West",
+    "buying_timeline_weeks": null,
+    "profession": "private company",
+    "visit_date": "2026-02-28"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 9500000,
+    "current_location": "Mulund",
+    "preferred_location": "Thane",
+    "buying_timeline_weeks": 2,
+    "profession": "working in a private company",
+    "visit_date": "2024-02-28"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 0,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 0
+}
+
+
+Processing chat_11
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Sharma",
+    "email": "rahul.sharma@gmail.com",
+    "phone": "9876543210",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": "IT services",
+    "visit_date": "2026-03-18"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Sharma",
+    "email": "rahul.sharma@gmail.com",
+    "phone": "9876543210",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": "IT services sector",
+    "visit_date": "2026-03-18"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_12
+
+Normalized Ground truth data : {
+    "full_name": "Anjali Mehta",
+    "email": "anjali.mehta@gmail.com",
+    "phone": "9823456789",
+    "budget_rupees": 22000000,
+    "current_location": "Thane West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": null,
+    "profession": "Private bank",
+    "visit_date": "2026-04-02"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Anjali Mehta",
+    "email": "anjali.mehta@gmail.com",
+    "phone": "9823456789",
+    "budget_rupees": 220000000,
+    "current_location": "Thane West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 2,
+    "profession": "private bank",
+    "visit_date": "2026-04-02"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_13
+
+Normalized Ground truth data : {
+    "full_name": "Sandeep Kulkarni",
+    "email": "sandeep.k@gmail.com",
+    "phone": "9012345678",
+    "budget_rupees": 27000000,
+    "current_location": "Baner, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Manufacturing business owner",
+    "visit_date": "2026-03-25"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Sandeep Kulkarni",
+    "email": "sandeep.k@gmail.com",
+    "phone": "9012345678",
+    "budget_rupees": 27000000,
+    "current_location": "Baner, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "manufacturing business",
+    "visit_date": "2026-03-25"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_14
+
+Normalized Ground truth data : {
+    "full_name": "Kamla Deshpande",
+    "email": "kamla.d@gmail.com",
+    "phone": "8899776655",
+    "budget_rupees": 12000000,
+    "current_location": "Nerul",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": 16,
+    "profession": "Retired",
+    "visit_date": "2026-02-20"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Kamla Deshpande",
+    "email": "kamla.d@gmail.com",
+    "phone": "8899776655",
+    "budget_rupees": 12000000,
+    "current_location": "Nerul",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": 16,
+    "profession": "retired",
+    "visit_date": "2026-02-20"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_15
+
+Normalized Ground truth data : {
+    "full_name": "Arjun Verma",
+    "email": "arjun.verma@gmail.com",
+    "phone": "9988771122",
+    "budget_rupees": 35000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 24,
+    "profession": "Consulting firm",
+    "visit_date": "2026-03-10"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Arjun Verma",
+    "email": "arjun.verma@gmail.com",
+    "phone": "9988771122",
+    "budget_rupees": 35000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 24,
+    "profession": "consulting firm",
+    "visit_date": "2026-03-10"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_16
+
+Normalized Ground truth data : {
+    "full_name": "Rohit Malhotra",
+    "email": "rohit.m@gmail.com",
+    "phone": "9876654321",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 10,
+    "profession": "Private company",
+    "visit_date": "2026-03-08"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rohit Malhotra",
+    "email": "rohit.m@gmail.com",
+    "phone": "9876654321",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 10,
+    "profession": "private company",
+    "visit_date": "2026-03-08"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_17
+
+Normalized Ground truth data : {
+    "full_name": "Ajay Verma",
+    "email": "ajay.verma@gmail.com",
+    "phone": "9011223344",
+    "budget_rupees": 21000000,
+    "current_location": "Kanjurmarg",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 8,
+    "profession": "Business owner",
+    "visit_date": "2026-03-05"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Ajay Verma",
+    "email": "ajay.verma@gmail.com",
+    "phone": "9011223344",
+    "budget_rupees": 21000000,
+    "current_location": "Kanjurmarg",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 8,
+    "profession": "business owner",
+    "visit_date": "2026-03-05"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_18
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Mehra",
+    "email": "rahul.mehra@gmail.com",
+    "phone": "9898989898",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": "IT services",
+    "visit_date": "2026-03-22"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Mehra",
+    "email": "rahul.mehra@gmail.com",
+    "phone": "9898989898",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": "IT services company",
+    "visit_date": "2026-03-22"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_19
+
+Normalized Ground truth data : {
+    "full_name": "Ananya Iyer",
+    "email": "ananya.iyer@gmail.com",
+    "phone": "9123456780",
+    "budget_rupees": 22000000,
+    "current_location": "Mulund West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 20,
+    "profession": "Private bank",
+    "visit_date": "2026-04-06"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Ananya Iyer",
+    "email": "ananya.iyer@gmail.com",
+    "phone": "9123456780",
+    "budget_rupees": 220000000,
+    "current_location": "Mulund West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 20,
+    "profession": "private bank",
+    "visit_date": "2026-04-06"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_20
+
+Normalized Ground truth data : {
+    "full_name": "Suresh Patil",
+    "email": "suresh.p@gmail.com",
+    "phone": "9090909090",
+    "budget_rupees": 27000000,
+    "current_location": "Wakad, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Logistics business owner",
+    "visit_date": "2026-03-30"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Suresh Patil",
+    "email": "suresh.p@gmail.com",
+    "phone": "9090909090",
+    "budget_rupees": 27000000,
+    "current_location": "Wakad, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "logistics business owner",
+    "visit_date": "2026-03-30"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+==============================
+Running extraction with model: gpt-4.1-mini
+==============================
+
+
+Processing chat_01
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Mehta",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Mehta",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_02
+
+Normalized Ground truth data : {
+    "full_name": "Anjali",
+    "email": "anjali.s@gmail.com",
+    "phone": null,
+    "budget_rupees": 20000000,
+    "current_location": "Thane",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 24,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Anjali",
+    "email": "anjali.s@gmail.com",
+    "phone": null,
+    "budget_rupees": 20000000,
+    "current_location": "Thane",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 26,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_03
+
+Normalized Ground truth data : {
+    "full_name": "Amit",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 5500000,
+    "current_location": "Kandarpada",
+    "preferred_location": "Mira Road",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Amit",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 5500000,
+    "current_location": "Kandarpada",
+    "preferred_location": "Mira Road",
+    "buying_timeline_weeks": 0,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_04
+
+Normalized Ground truth data : {
+    "full_name": "Suresh Kumar",
+    "email": null,
+    "phone": "9876501234",
+    "budget_rupees": 11000000,
+    "current_location": "Panvel",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": "next Saturday"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Suresh Kumar",
+    "email": null,
+    "phone": "9876501234",
+    "budget_rupees": 11000000,
+    "current_location": "Panvel",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 0
+}
+
+
+Processing chat_05
+
+Normalized Ground truth data : {
+    "full_name": "Arjun Malhotra",
+    "email": "arjun.m@gmail.com",
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Delhi",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 11,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Arjun Malhotra",
+    "email": "arjun.m@gmail.com",
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Delhi",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 11,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_06
+
+Normalized Ground truth data : {
+    "full_name": "Rakesh",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 16000000,
+    "current_location": "Kandivali East",
+    "preferred_location": "Malad West",
+    "buying_timeline_weeks": 10,
+    "profession": "service sector",
+    "visit_date": "2026-03-12"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rakesh",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 16000000,
+    "current_location": "Kandivali East",
+    "preferred_location": "Malad West",
+    "buying_timeline_weeks": 10,
+    "profession": "service sector",
+    "visit_date": "2026-03-12"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_07
+
+Normalized Ground truth data : {
+    "full_name": "Sunil",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 18000000,
+    "current_location": "Ghatkopar",
+    "preferred_location": "Chembur East",
+    "buying_timeline_weeks": null,
+    "profession": "business",
+    "visit_date": "2026-03-15"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Sunil",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 18000000,
+    "current_location": "Ghatkopar",
+    "preferred_location": "Chembur",
+    "buying_timeline_weeks": 1,
+    "profession": "business owner",
+    "visit_date": "2026-03-15"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 0,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_08
+
+Normalized Ground truth data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 14000000,
+    "current_location": "Borivali East",
+    "preferred_location": "Borivali West",
+    "buying_timeline_weeks": 56,
+    "profession": "retired",
+    "visit_date": "2026-04-05"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 14000000,
+    "current_location": "Borivali East",
+    "preferred_location": "Borivali West",
+    "buying_timeline_weeks": 52,
+    "profession": "retired",
+    "visit_date": "2026-04-05"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_09
+
+Normalized Ground truth data : {
+    "full_name": "Kunal",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 1,
+    "profession": "finance",
+    "visit_date": "2026-03-20"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Kunal",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 1,
+    "profession": "finance",
+    "visit_date": "2026-03-20"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_10
+
+Normalized Ground truth data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 10000000,
+    "current_location": "Mulund",
+    "preferred_location": "Thane West",
+    "buying_timeline_weeks": null,
+    "profession": "private company",
+    "visit_date": "2026-02-28"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 10000000,
+    "current_location": "Mulund",
+    "preferred_location": "Thane",
+    "buying_timeline_weeks": 1,
+    "profession": "private company employee",
+    "visit_date": "2024-02-28"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 0,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 0
+}
+
+
+Processing chat_11
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Sharma",
+    "email": "rahul.sharma@gmail.com",
+    "phone": "9876543210",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": "IT services",
+    "visit_date": "2026-03-18"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Sharma",
+    "email": "rahul.sharma@gmail.com",
+    "phone": "9876543210",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": "IT services",
+    "visit_date": "2026-03-18"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_12
+
+Normalized Ground truth data : {
+    "full_name": "Anjali Mehta",
+    "email": "anjali.mehta@gmail.com",
+    "phone": "9823456789",
+    "budget_rupees": 22000000,
+    "current_location": "Thane West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": null,
+    "profession": "Private bank",
+    "visit_date": "2026-04-02"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Anjali Mehta",
+    "email": "anjali.mehta@gmail.com",
+    "phone": "9823456789",
+    "budget_rupees": 22000000,
+    "current_location": "Thane West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 1,
+    "profession": "private bank",
+    "visit_date": "2026-04-02"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_13
+
+Normalized Ground truth data : {
+    "full_name": "Sandeep Kulkarni",
+    "email": "sandeep.k@gmail.com",
+    "phone": "9012345678",
+    "budget_rupees": 27000000,
+    "current_location": "Baner, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Manufacturing business owner",
+    "visit_date": "2026-03-25"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Sandeep Kulkarni",
+    "email": "sandeep.k@gmail.com",
+    "phone": "9012345678",
+    "budget_rupees": 27000000,
+    "current_location": "Baner, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Manufacturing business owner",
+    "visit_date": "2026-03-25"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_14
+
+Normalized Ground truth data : {
+    "full_name": "Kamla Deshpande",
+    "email": "kamla.d@gmail.com",
+    "phone": "8899776655",
+    "budget_rupees": 12000000,
+    "current_location": "Nerul",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": 16,
+    "profession": "Retired",
+    "visit_date": "2026-02-20"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Kamla Deshpande",
+    "email": "kamla.d@gmail.com",
+    "phone": "8899776655",
+    "budget_rupees": 12000000,
+    "current_location": "Nerul",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": 16,
+    "profession": "retired",
+    "visit_date": "2026-02-20"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_15
+
+Normalized Ground truth data : {
+    "full_name": "Arjun Verma",
+    "email": "arjun.verma@gmail.com",
+    "phone": "9988771122",
+    "budget_rupees": 35000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 24,
+    "profession": "Consulting firm",
+    "visit_date": "2026-03-10"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Arjun Verma",
+    "email": "arjun.verma@gmail.com",
+    "phone": "9988771122",
+    "budget_rupees": 35000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 24,
+    "profession": "consulting firm",
+    "visit_date": "2026-03-10"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_16
+
+Normalized Ground truth data : {
+    "full_name": "Rohit Malhotra",
+    "email": "rohit.m@gmail.com",
+    "phone": "9876654321",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 10,
+    "profession": "Private company",
+    "visit_date": "2026-03-08"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rohit Malhotra",
+    "email": "rohit.m@gmail.com",
+    "phone": "9876654321",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 10,
+    "profession": "private company",
+    "visit_date": "2026-03-08"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_17
+
+Normalized Ground truth data : {
+    "full_name": "Ajay Verma",
+    "email": "ajay.verma@gmail.com",
+    "phone": "9011223344",
+    "budget_rupees": 21000000,
+    "current_location": "Kanjurmarg",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 8,
+    "profession": "Business owner",
+    "visit_date": "2026-03-05"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Ajay Verma",
+    "email": "ajay.verma@gmail.com",
+    "phone": "9011223344",
+    "budget_rupees": 21000000,
+    "current_location": "Kanjurmarg, Mumbai",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 8,
+    "profession": "business owner",
+    "visit_date": "2026-03-05"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 0,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_18
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Mehra",
+    "email": "rahul.mehra@gmail.com",
+    "phone": "9898989898",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": "IT services",
+    "visit_date": "2026-03-22"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Mehra",
+    "email": "rahul.mehra@gmail.com",
+    "phone": "9898989898",
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon East",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 16,
+    "profession": "IT services",
+    "visit_date": "2026-03-22"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_19
+
+Normalized Ground truth data : {
+    "full_name": "Ananya Iyer",
+    "email": "ananya.iyer@gmail.com",
+    "phone": "9123456780",
+    "budget_rupees": 22000000,
+    "current_location": "Mulund West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 20,
+    "profession": "Private bank",
+    "visit_date": "2026-04-06"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Ananya Iyer",
+    "email": "ananya.iyer@gmail.com",
+    "phone": "9123456780",
+    "budget_rupees": 22000000,
+    "current_location": "Mulund West",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 20,
+    "profession": "private bank",
+    "visit_date": "2026-04-06"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_20
+
+Normalized Ground truth data : {
+    "full_name": "Suresh Patil",
+    "email": "suresh.p@gmail.com",
+    "phone": "9090909090",
+    "budget_rupees": 27000000,
+    "current_location": "Wakad, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "Logistics business owner",
+    "visit_date": "2026-03-30"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Suresh Patil",
+    "email": "suresh.p@gmail.com",
+    "phone": "9090909090",
+    "budget_rupees": 27000000,
+    "current_location": "Wakad, Pune",
+    "preferred_location": "Lonavala",
+    "buying_timeline_weeks": 24,
+    "profession": "logistics business owner",
+    "visit_date": "2026-03-30"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+==============================
+Running extraction with model: gpt-5-mini
+==============================
+
+
+Processing chat_01
+
+Normalized Ground truth data : {
+    "full_name": "Rahul Mehta",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rahul Mehta",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 27500000,
+    "current_location": "Goregaon West",
+    "preferred_location": "Andheri West",
+    "buying_timeline_weeks": 14,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_02
+
+Normalized Ground truth data : {
+    "full_name": "Anjali",
+    "email": "anjali.s@gmail.com",
+    "phone": null,
+    "budget_rupees": 20000000,
+    "current_location": "Thane",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 24,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Anjali",
+    "email": "anjali.s@gmail.com",
+    "phone": null,
+    "budget_rupees": 20000000,
+    "current_location": "Thane",
+    "preferred_location": "Powai",
+    "buying_timeline_weeks": 26,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_03
+
+Normalized Ground truth data : {
+    "full_name": "Amit",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 5500000,
+    "current_location": "Kandarpada",
+    "preferred_location": "Mira Road",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Amit",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 5500000,
+    "current_location": "Kandarpada, Mumbai",
+    "preferred_location": "Mira Road",
+    "buying_timeline_weeks": 0,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 0,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_04
+
+Normalized Ground truth data : {
+    "full_name": "Suresh Kumar",
+    "email": null,
+    "phone": "9876501234",
+    "budget_rupees": 11000000,
+    "current_location": "Panvel",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": "next Saturday"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Suresh Kumar",
+    "email": null,
+    "phone": "9876501234",
+    "budget_rupees": 10000000,
+    "current_location": "Panvel",
+    "preferred_location": "Vashi",
+    "buying_timeline_weeks": null,
+    "profession": null,
+    "visit_date": "2026-02-07"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 0,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 0
+}
+
+
+Processing chat_05
+
+Normalized Ground truth data : {
+    "full_name": "Arjun Malhotra",
+    "email": "arjun.m@gmail.com",
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Delhi",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 11,
+    "profession": null,
+    "visit_date": null
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Arjun Malhotra",
+    "email": "arjun.m@gmail.com",
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Delhi",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 11,
+    "profession": null,
+    "visit_date": null
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_06
+
+Normalized Ground truth data : {
+    "full_name": "Rakesh",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 16000000,
+    "current_location": "Kandivali East",
+    "preferred_location": "Malad West",
+    "buying_timeline_weeks": 10,
+    "profession": "service sector",
+    "visit_date": "2026-03-12"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Rakesh",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 16000000,
+    "current_location": "Kandivali East",
+    "preferred_location": "Malad West",
+    "buying_timeline_weeks": 10,
+    "profession": "service sector",
+    "visit_date": "2026-03-12"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 1,
+    "profession": 1,
+    "visit_date": 1
+}
+
+
+Processing chat_07
+
+Normalized Ground truth data : {
+    "full_name": "Sunil",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 18000000,
+    "current_location": "Ghatkopar",
+    "preferred_location": "Chembur East",
+    "buying_timeline_weeks": null,
+    "profession": "business",
+    "visit_date": "2026-03-15"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Sunil",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 18000000,
+    "current_location": "Ghatkopar",
+    "preferred_location": "Chembur",
+    "buying_timeline_weeks": 0.43,
+    "profession": "Business owner",
+    "visit_date": "2026-03-15"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 0,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_08
+
+Normalized Ground truth data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 14000000,
+    "current_location": "Borivali East",
+    "preferred_location": "Borivali West",
+    "buying_timeline_weeks": 56,
+    "profession": "retired",
+    "visit_date": "2026-04-05"
+}
+
+
+Normalized Prediction data : {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "budget_rupees": 14000000,
+    "current_location": "Borivali East",
+    "preferred_location": "Borivali West",
+    "buying_timeline_weeks": 52,
+    "profession": "Retired",
+    "visit_date": "2026-04-05"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 1,
+    "preferred_location": 1,
+    "buying_timeline_weeks": 0,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_09
+
+Normalized Ground truth data : {
+    "full_name": "Kunal",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Worli",
+    "preferred_location": "Lower Parel",
+    "buying_timeline_weeks": 1,
+    "profession": "finance",
+    "visit_date": "2026-03-20"
+}
+
+
+Normalized Prediction data : {
+    "full_name": "Kunal",
+    "email": null,
+    "phone": null,
+    "budget_rupees": 30000000,
+    "current_location": "Worli, Mumbai",
+    "preferred_location": "Lower Parel, Mumbai",
+    "buying_timeline_weeks": 1,
+    "profession": "Finance",
+    "visit_date": "2026-03-20"
+}
+
+#### Comparison (GT VS Pred) ####
+{
+    "full_name": 1,
+    "email": 1,
+    "phone": 1,
+    "budget_rupees": 1,
+    "current_location": 0,
+    "preferred_location": 0,
+    "buying_timeline_weeks": 1,
+    "profession": 0,
+    "visit_date": 1
+}
+
+
+Processing chat_10

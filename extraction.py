@@ -4,13 +4,13 @@ import evaluator
 import time
 
 OPENAI_MODELS = [
-    "gpt-4o-mini",
-    "gpt-4o",
-    "gpt-4.1"
+    "gpt-4.1-nano",
+    "gpt-4.1-mini",
+    "gpt-5-mini"
 ]
 
 
-def main():
+def main(prompt_file):
     # Load dataset
     with open("dataset.json", "r", encoding="utf-8-sig") as f:
         dataset = json.load(f)
@@ -42,7 +42,7 @@ def main():
 
                 prediction = extract_with_openai(
                     conversation=conversation,
-                    model=model
+                    model=model, pf = prompt_file
                 )
 
                 end_time = time.perf_counter()     # ⬅️ END
@@ -87,4 +87,15 @@ def main():
 
 
 if __name__ == "__main__":
-        main()
+
+    prompt_files = ['prompt1.txt', 
+                    'prompt2.txt', 
+                    'prompt3.txt', 
+                    'prompt4.txt',
+                    'prompt5.txt',
+                    'prompt6.txt']
+
+    for file in prompt_files:
+        print(f"{20*'%'} Evaluating prompt {file} {20*'%'}")
+        main(file)
+        print(f"{20*'%'} End of Evauation of {file} {20*'%'}")

@@ -1,0 +1,21 @@
+Your task is to extract structured information from the conversation.
+
+Extract these fields:
+- first_name
+- last_name
+- phone_number
+- email
+- budget (number only, INR)
+- current_location
+- preferred_location
+- profession
+- visit_date (YYYY-MM-DD or null)
+- buying_timeline_weeks (number only)
+
+Guidelines:
+- Use null when information is missing
+- Return valid JSON only
+- No additional text
+
+Conversation:
+{conversation}

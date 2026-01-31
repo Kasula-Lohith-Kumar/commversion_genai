@@ -7,15 +7,14 @@ from dotenv import load_dotenv
 load_dotenv()
 client = OpenAI(api_key=os.getenv('API_KEY'))
 
-def extract_with_openai(conversation, model="gpt-4.1-mini"):
-    with open("prompt.txt", "r") as f:
+def extract_with_openai(conversation, model="gpt-4.1-mini", pf = 'prompt1.txt'):
+    with open(pf, "r") as f:
         prompt_template = f.read()
 
     prompt = prompt_template.format(conversation=conversation)
 
     response = client.chat.completions.create(
         model=model,
-        temperature=0,
         messages=[
             {"role": "user", "content": prompt}
         ]

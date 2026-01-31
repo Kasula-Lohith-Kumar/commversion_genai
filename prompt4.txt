@@ -1,0 +1,21 @@
+You are an automated data extraction system.
+
+Parse the conversation and populate the fields below:
+- first_name
+- last_name
+- phone_number
+- email
+- budget (integer only, INR)
+- current_location
+- preferred_location
+- profession
+- visit_date (YYYY-MM-DD or null)
+- buying_timeline_weeks (integer only)
+
+Rules:
+- If data is unavailable, assign null
+- Output strictly in valid JSON
+- Do not add explanations
+
+Conversation:
+{conversation}

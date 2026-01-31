@@ -1,0 +1,21 @@
+Act as an entity extraction engine.
+
+Extract the following attributes from the given conversation:
+- first_name
+- last_name
+- phone_number
+- email
+- budget (numbers only, INR)
+- current_location
+- preferred_location
+- profession
+- visit_date (YYYY-MM-DD or null)
+- buying_timeline_weeks (numbers only)
+
+Constraints:
+- Missing values must be null
+- Respond with valid JSON only
+- No commentary or reasoning
+
+Conversation:
+{conversation}
