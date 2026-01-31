@@ -1,6 +1,6 @@
 import json
 from openai_extractor import extract_with_openai
-from evaluator import compare_prediction, compute_metrics
+import evaluator
 
 OPENAI_MODEL = "gpt-4.1-mini"  # change to gpt-4o / gpt-4.1 etc
 
@@ -26,10 +26,15 @@ def main():
         prediction = extract_with_openai(conversation, model=OPENAI_MODEL)
         gt = ground_truth_map[chat_id]
 
-        comparison = compare_prediction(prediction, gt)
+        print("gt:", gt)
+
+        norm_gt = evaluator.normalize_ground_truth(gt)
+        norm_pred = evaluator.normalize_prediction(prediction)
+
+        comparison = evaluator.compare(norm_pred, norm_gt)
         all_results.append(comparison)
 
-    metrics = compute_metrics(all_results)
+    metrics = evaluator.compute_metrics(all_results)
 
     print("\n=== FINAL METRICS ===")
     print(json.dumps(metrics, indent=2))
