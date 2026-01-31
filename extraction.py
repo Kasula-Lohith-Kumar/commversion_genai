@@ -23,6 +23,12 @@ def main(prompt_file):
 
     final_results = {}
 
+    token_summary = {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+        }
+
     for model in OPENAI_MODELS:
         print(f"\n==============================")
         print(f"Running extraction with model: {model}")
@@ -40,10 +46,18 @@ def main(prompt_file):
             try:
                 start_time = time.perf_counter()   # ⬅️ START
 
-                prediction = extract_with_openai(
-                    conversation=conversation,
-                    model=model, pf = prompt_file
+                result = extract_with_openai(
+                conversation=conversation,
+                model=model,
+                pf=prompt_file
                 )
+
+                prediction = result["prediction"]
+                usage = result["usage"]
+
+                token_summary["prompt_tokens"] += usage["prompt_tokens"]
+                token_summary["completion_tokens"] += usage["completion_tokens"]
+                token_summary["total_tokens"] += usage["total_tokens"]
 
                 end_time = time.perf_counter()     # ⬅️ END
                 latency_ms = (end_time - start_time) * 1000
@@ -80,6 +94,13 @@ def main(prompt_file):
         else:
             metrics["latency"] = None
 
+        metrics["tokens"] = {
+            "total_prompt_tokens": token_summary["prompt_tokens"],
+            "total_completion_tokens": token_summary["completion_tokens"],
+            "total_tokens": token_summary["total_tokens"],
+            "avg_tokens_per_sample": 
+            round(token_summary["total_tokens"] / len(latencies_ms), 2) if latencies_ms else 0}
+
         final_results[model] = metrics
 
     print("\n=== FINAL METRICS (PER MODEL) ===")
@@ -88,12 +109,14 @@ def main(prompt_file):
 
 if __name__ == "__main__":
 
-    prompt_files = ['prompt1.txt', 
-                    'prompt2.txt', 
-                    'prompt3.txt', 
-                    'prompt4.txt',
-                    'prompt5.txt',
-                    'prompt6.txt']
+    # prompt_files = ['prompt1.txt', 
+    #                 'prompt2.txt', 
+    #                 'prompt3.txt', 
+    #                 'prompt4.txt',
+    #                 'prompt5.txt',
+    #                 'prompt6.txt']
+
+    prompt_files = ['prompt1.txt', 'prompt2.txt', 'prompt3.txt']
 
     for file in prompt_files:
         print(f"{20*'%'} Evaluating prompt {file} {20*'%'}")

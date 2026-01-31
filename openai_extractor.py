@@ -7,26 +7,27 @@ from dotenv import load_dotenv
 load_dotenv()
 client = OpenAI(api_key=os.getenv('API_KEY'))
 
-def extract_with_openai(conversation, model="gpt-4.1-mini", pf = 'prompt1.txt'):
-    with open(pf, "r") as f:
-        prompt_template = f.read()
-
-    prompt = prompt_template.format(conversation=conversation)
-
+def extract_with_openai(conversation, model, pf):
     response = client.chat.completions.create(
         model=model,
         messages=[
-            {"role": "user", "content": prompt}
+            {"role": "system", "content": open(pf).read()},
+            {"role": "user", "content": conversation}
         ]
     )
 
-    content = response.choices[0].message.content
-    # print(content)
-    
+    prediction_text = response.choices[0].message.content
 
-    parsed = parse_llm_json(content)
-    # print(parsed)
-    return parsed
+    usage = {
+        "prompt_tokens": response.usage.prompt_tokens,
+        "completion_tokens": response.usage.completion_tokens,
+        "total_tokens": response.usage.total_tokens
+    }
+
+    return {
+        "prediction": parse_llm_json(prediction_text),
+        "usage": usage
+    }
 
 def parse_llm_json(content: str):
     if not content:
