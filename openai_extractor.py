@@ -1,9 +1,12 @@
 import re
+import os
 import json
 from openai import OpenAI
 from openai_keys import key
+from dotenv import load_dotenv
 
-client = OpenAI(api_key=key)
+load_dotenv()
+client = OpenAI(api_key=os.getenv('API_KEY'))
 
 def extract_with_openai(conversation, model="gpt-4.1-mini"):
     with open("prompt.txt", "r") as f:
@@ -24,7 +27,7 @@ def extract_with_openai(conversation, model="gpt-4.1-mini"):
     
 
     parsed = parse_llm_json(content)
-    print(parsed)
+    # print(parsed)
     return parsed
 
 def parse_llm_json(content: str):
