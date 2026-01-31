@@ -1,4 +1,7 @@
 import re
+import json
+
+
 def normalize(value):
     if value is None:
         return None
@@ -96,6 +99,8 @@ def compare(pred_norm, gt_norm):
     results = {}
     for key in pred_norm:
         results[key] = int(pred_norm[key] == gt_norm[key])
+    print('\n#### Comparison (GT VS Pred) ####')
+    print(json.dumps(results, indent=4))
     return results
 
 

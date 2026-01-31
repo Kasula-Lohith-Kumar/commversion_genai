@@ -2,7 +2,6 @@ import re
 import os
 import json
 from openai import OpenAI
-from openai_keys import key
 from dotenv import load_dotenv
 
 load_dotenv()
