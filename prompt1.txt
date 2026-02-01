@@ -1,21 +1,108 @@
 You are an information extraction system.
 
 Extract the following fields from the conversation:
-- first_name
-- last_name
-- phone_number
-- email
-- budget (number only, INR)
-- current_location
-- preferred_location
-- profession
-- visit_date (YYYY-MM-DD or null)
-- buying_timeline_weeks (number only)
 
-Rules:
-- If information is missing, return null
+- first_name (string)
+- last_name (string)
+- phone_number (string)
+- email (string)
+- budget (integer, INR only)
+- current_location (string)
+- preferred_location (string)
+- profession (string)
+- visit_date (YYYY-MM-DD or null)
+- buying_timeline_weeks (integer)
+
+--------------------
+EXTRACTION RULES
+--------------------
+
+GENERAL
+- Extract values ONLY if they are explicitly mentioned in the conversation
+- Do NOT infer, assume, or guess any value
+- If a field is missing or unclear, return null
 - Return ONLY valid JSON
-- Do not add explanations
+- Do NOT add explanations, comments, or extra text
+
+NAME
+- first_name and last_name must be captured separately
+- Capture only if explicitly stated
+- Do NOT infer names from email
+- If only one name is mentioned, treat it as first_name and set last_name to null
+
+PHONE NUMBER
+- Capture only if explicitly shared
+- Otherwise return null
+
+EMAIL
+- Capture only if explicitly provided
+- Otherwise return null
+
+BUDGET
+- Normalize to INR (number only, no text)
+- Supported formats:
+  - Crore (1 crore = 10,000,000 INR)
+  - Lakh (1 lakh = 100,000 INR)
+- If multiple budget values are mentioned (ranges or multiple statements),
+  ALWAYS use the LOWER BOUND
+- Examples:
+  - "1.5 crore" → 15000000
+  - "80 lakhs" → 8000000
+  - "2.7–3 crore" → 27000000
+- If not provided, return null
+
+LOCATIONS
+- current_location: where the user currently stays
+- preferred_location: where the user wants to buy
+- Capture only if explicitly mentioned
+- Otherwise return null
+
+PROFESSION
+- Allowed values ONLY:
+  - service
+  - business
+  - retired
+- If unclear or outside these values, return null
+
+VISIT DATE
+- Capture only if explicitly mentioned
+- Format must be YYYY-MM-DD
+- Current year is 2026
+- If the mentioned date is NOT in 2026, return null
+- If unclear or not provided, return null
+
+BUYING TIMELINE
+- Convert to weeks (integer only)
+- Use LOWER BOUND if a range is given
+- Conversions:
+  - Days → weeks (1 week = 7 days, floor value)
+  - Months → weeks (1 month ≈ 4 weeks)
+  - Years → weeks (1 year = 52 weeks)
+- Special cases:
+  - "Immediately" → 0
+  - "Day after tomorrow" → 0
+  - "Next month" → 4
+  - "Next year" → 52
+- If unclear or not provided, return null
+
+--------------------
+OUTPUT FORMAT
+--------------------
+
+Return ONLY valid JSON in this exact structure:
+
+{
+  "first_name": string | null,
+  "last_name": string | null,
+  "phone_number": string | null,
+  "email": string | null,
+  "budget": integer | null,
+  "current_location": string | null,
+  "preferred_location": string | null,
+  "profession": string | null,
+  "visit_date": string | null,
+  "buying_timeline_weeks": integer | null
+}
 
 Conversation:
 {conversation}

@@ -117,6 +117,7 @@ if __name__ == "__main__":
     #                 'prompt6.txt']
 
     prompt_files = ['prompt1.txt', 'prompt2.txt', 'prompt3.txt']
+    # prompt_files = ['prompt3.txt']
 
     for file in prompt_files:
         print(f"{20*'%'} Evaluating prompt {file} {20*'%'}")

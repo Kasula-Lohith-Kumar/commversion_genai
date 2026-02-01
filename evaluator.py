@@ -1,44 +1,40 @@
 import re
 import json
+from datetime import datetime
 
 
-def normalize(value):
+# =================================================
+# BASIC STRING NORMALIZATION
+# =================================================
+
+def normalize_str(value):
     if value is None:
         return None
-    if isinstance(value, str):
-        return value.strip().lower()
-    return value
+    value = value.strip().lower()
+    return value if value else None
 
-EVAL_FIELDS = [
-    "full_name",
-    "email",
-    "phone",
-    "budget_rupees",
-    "current_location",
-    "preferred_location",
-    "buying_timeline_weeks",
-    "profession",
-    "visit_date"
-]
 
-def normalize_prediction(pred):
-    full_name = None
-    if pred.get("first_name"):
-        full_name = pred["first_name"]
-        if pred.get("last_name"):
-            full_name += " " + pred["last_name"]
+# =================================================
+# NAME NORMALIZATION
+# =================================================
 
-    return {
-        "full_name": full_name,
-        "email": pred.get("email"),
-        "phone": pred.get("phone_number"),
-        "budget_rupees": pred.get("budget"),
-        "current_location": pred.get("current_location"),
-        "preferred_location": pred.get("preferred_location"),
-        "buying_timeline_weeks": pred.get("buying_timeline_weeks"),
-        "profession": pred.get("profession"),
-        "visit_date": pred.get("visit_date"),
-    }
+def split_name(full_name):
+    """
+    Capture first and last name ONLY if explicitly stated.
+    """
+    if not full_name:
+        return None, None
+
+    parts = full_name.strip().split()
+    if len(parts) >= 2:
+        return normalize_str(parts[0]), normalize_str(parts[-1])
+
+    return normalize_str(parts[0]), None
+
+
+# =================================================
+# BUYING TIMELINE NORMALIZATION (LOWER BOUND)
+# =================================================
 
 def timeline_to_weeks(timeline):
     if not timeline:
@@ -46,83 +42,181 @@ def timeline_to_weeks(timeline):
 
     timeline = timeline.lower().strip()
 
-    # extract all numbers
+    if "immediate" in timeline or "immediately" in timeline:
+        return 0
+    if "day after tomorrow" in timeline:
+        return 0
+    if "next month" in timeline:
+        return 4
+    if "next year" in timeline:
+        return 52
+
     nums = list(map(int, re.findall(r"\d+", timeline)))
     if not nums:
         return None
 
-    avg = sum(nums) / len(nums)
+    lower = min(nums)
 
-    if "month" in timeline:
-        return int(avg * 4)   # approx conversion
+    if "day" in timeline:
+        return lower // 7
     if "week" in timeline:
-        return int(avg)
+        return lower
+    if "month" in timeline:
+        return lower * 4
+    if "year" in timeline:
+        return lower * 52
 
     return None
 
+
+# =================================================
+# BUDGET NORMALIZATION (GT — CORRECT)
+# =================================================
+
+def normalize_budget_from_gt(entities):
+    """
+    IMPORTANT:
+    - Use ONLY explicit budget fields
+    - DO NOT use price_mentioned_crore
+    """
+
+    if entities.get("budget_crore") is None:
+        return None
+
+    # budget_crore is already the customer's budget
+    return int(float(entities["budget_crore"]) * 10_000_000)
+
+
+# =================================================
+# BUDGET NORMALIZATION (PREDICTION)
+# =================================================
+
+def normalize_budget_from_pred(budget):
+    """
+    Budget must be INR.
+    Apply lower bound only if a range is given.
+    """
+    if budget is None:
+        return None
+
+    if isinstance(budget, (int, float)):
+        return int(budget)
+
+    nums = list(map(float, re.findall(r"\d+\.?\d*", str(budget))))
+    if not nums:
+        return None
+
+    return int(min(nums))
+
+
+# =================================================
+# PROFESSION NORMALIZATION
+# =================================================
+
+def normalize_profession(profession):
+    if not profession:
+        return None
+
+    profession = profession.lower()
+    if profession in ["service", "business", "retired"]:
+        return profession
+
+    return None
+
+
+# =================================================
+# VISIT DATE NORMALIZATION
+# =================================================
+
+def normalize_visit_date(date_text):
+    """
+    Capture only explicitly mentioned dates in 2026.
+    """
+    if not date_text:
+        return None
+
+    try:
+        dt = datetime.strptime(date_text, "%Y-%m-%d")
+        if dt.year != 2026:
+            return None
+        return dt.strftime("%Y-%m-%d")
+    except Exception:
+        return None
+
+
+# =================================================
+# GROUND TRUTH NORMALIZATION
+# =================================================
+
 def normalize_ground_truth(gt):
-    entities = gt["entities"]
+    entities = gt.get("entities", {})
+
+    first_name, last_name = split_name(entities.get("customer_name"))
 
     return {
-        "full_name": entities.get("customer_name"),
-        "email": entities.get("email"),
-        "phone": entities.get("phone"),
-        "budget_rupees": (
-            int(entities["budget_crore"] * 1e7)
-            if entities.get("budget_crore") is not None
-            else None
-        ),
-        "current_location": entities.get("current_location"),
-        "preferred_location": entities.get("location"),
+        "first_name": first_name,
+        "last_name": last_name,
+        "phone_number": normalize_str(entities.get("phone")),
+        "email": normalize_str(entities.get("email")),
+        "budget": normalize_budget_from_gt(entities),
+        "current_location": normalize_str(entities.get("current_location")),
+        "preferred_location": normalize_str(entities.get("location")),
+        "profession": normalize_profession(entities.get("profession")),
+        "visit_date": normalize_visit_date(entities.get("visit_date")),
         "buying_timeline_weeks": timeline_to_weeks(
             entities.get("purchase_timeline")
         ),
-        "profession": entities.get("profession"),
-        "visit_date": entities.get("visit_date"),
     }
-def compare_prediction(pred, gt):
-    """
-    Returns dict like:
-    {
-      "first_name": True,
-      "budget": False
+
+
+# =================================================
+# PREDICTION NORMALIZATION
+# =================================================
+
+def normalize_prediction(pred):
+    return {
+        "first_name": normalize_str(pred.get("first_name")),
+        "last_name": normalize_str(pred.get("last_name")),
+        "phone_number": normalize_str(pred.get("phone_number")),
+        "email": normalize_str(pred.get("email")),
+        "budget": normalize_budget_from_pred(pred.get("budget")),
+        "current_location": normalize_str(pred.get("current_location")),
+        "preferred_location": normalize_str(pred.get("preferred_location")),
+        "profession": normalize_profession(pred.get("profession")),
+        "visit_date": normalize_visit_date(pred.get("visit_date")),
+        "buying_timeline_weeks": pred.get("buying_timeline_weeks"),
     }
-    """
-    result = {}
 
-    for key in gt.keys():
-        result[key] = normalize(pred.get(key)) == normalize(gt.get(key))
 
-    return result
+# =================================================
+# COMPARISON
+# =================================================
 
 def compare(pred_norm, gt_norm):
     results = {}
-    for key in pred_norm:
-        results[key] = int(pred_norm[key] == gt_norm[key])
-    print('\n#### Comparison (GT VS Pred) ####')
+    for key in gt_norm:
+        results[key] = int(pred_norm.get(key) == gt_norm.get(key))
+
+    print("\n#### Comparison (GT vs Pred) ####")
     print(json.dumps(results, indent=4))
     return results
 
 
+# =================================================
+# METRICS
+# =================================================
+
 def compute_metrics(all_results):
-    tp = 0
-    fn = 0
+    correct = 0
+    total = 0
 
     for chat in all_results:
-        for _, correct in chat.items():
-            if correct:
-                tp += 1
-            else:
-                fn += 1
-
-    precision = tp / (tp + fn + 1e-9)
-    recall = precision
-    f1 = precision
+        for _, value in chat.items():
+            total += 1
+            correct += value
 
     return {
-        "true_positives": tp,
-        "false_negatives": fn,
-        "precision": round(precision, 4),
-        "recall": round(recall, 4),
-        "f1": round(f1, 4)
+        "total_fields": total,
+        "correct_fields": correct,
+        "accuracy": round(correct / (total + 1e-9), 4)
     }
