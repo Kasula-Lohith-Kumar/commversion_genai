@@ -11,6 +11,49 @@ OPENAI_MODELS = [
 
 
 def main(prompt_file):
+    """
+    Evaluate multiple OpenAI models on a conversation extraction task by comparing 
+    their predictions against ground truth data.
+
+    This function:
+    - Loads a dataset of conversations and corresponding ground truth labels
+    - Runs structured extraction using different OpenAI models
+    - Normalizes both predictions and ground truth
+    - Computes evaluation metrics using a custom evaluator
+    - Measures per-sample inference latency
+    - Tracks token usage across all model calls
+    - Aggregates and reports final performance metrics per model
+
+    Args:
+        prompt_file (str): 
+            Path to the file containing the prompt template/instructions 
+            to be used for extraction with the OpenAI models.
+
+    Side effects:
+        - Prints detailed progress information, normalized predictions/ground truth,
+          and final metrics table to stdout
+        - Accumulates token usage and latency statistics
+
+    Output (printed):
+        JSON-formatted final metrics dictionary containing, for each model:
+        - Standard evaluation metrics (from evaluator.compute_metrics)
+        - Latency statistics (avg/min/max latency in ms, number of samples)
+        - Token usage statistics (total prompt, completion, total tokens,
+          average tokens per sample)
+
+    Returns:
+        None
+            Results are printed rather than returned.
+
+    Raises:
+        FileNotFoundError: If dataset.json, ground_truth.json or prompt_file cannot be opened
+        json.JSONDecodeError: If JSON files are malformed
+        Exception: Various errors from OpenAI API calls or normalization/comparison logic
+
+    Example:
+        >>> main("prompts/extraction_v2.txt")
+        # Will print progress and final metrics table for all models
+    """
     # Load dataset
     with open("dataset.json", "r", encoding="utf-8-sig") as f:
         dataset = json.load(f)
@@ -107,7 +150,10 @@ def main(prompt_file):
     print(json.dumps(final_results, indent=2))
 
 
+
 if __name__ == "__main__":
+    ''' Main Function call execution with different 
+            prompt files iteratively '''
 
     # prompt_files = ['prompt1.txt', 
     #                 'prompt2.txt', 
